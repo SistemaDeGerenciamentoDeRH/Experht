@@ -1,0 +1,1633 @@
+<?php
+$cache = array (
+  'subsystems' => 
+  array (
+    'access' => NULL,
+    'admin' => '/home/u998084134/public_html/admin',
+    'auth' => '/home/u998084134/public_html/auth',
+    'backup' => '/home/u998084134/public_html/backup/util/ui',
+    'badges' => '/home/u998084134/public_html/badges',
+    'block' => '/home/u998084134/public_html/blocks',
+    'blog' => '/home/u998084134/public_html/blog',
+    'bulkusers' => NULL,
+    'cache' => '/home/u998084134/public_html/cache',
+    'calendar' => '/home/u998084134/public_html/calendar',
+    'cohort' => '/home/u998084134/public_html/cohort',
+    'condition' => NULL,
+    'completion' => NULL,
+    'countries' => NULL,
+    'course' => '/home/u998084134/public_html/course',
+    'currencies' => NULL,
+    'dbtransfer' => NULL,
+    'debug' => NULL,
+    'editor' => '/home/u998084134/public_html/lib/editor',
+    'edufields' => NULL,
+    'enrol' => '/home/u998084134/public_html/enrol',
+    'error' => NULL,
+    'filepicker' => NULL,
+    'files' => '/home/u998084134/public_html/files',
+    'filters' => NULL,
+    'form' => '/home/u998084134/public_html/lib/form',
+    'grades' => '/home/u998084134/public_html/grade',
+    'grading' => '/home/u998084134/public_html/grade/grading',
+    'group' => '/home/u998084134/public_html/group',
+    'help' => NULL,
+    'hub' => NULL,
+    'imscc' => NULL,
+    'install' => NULL,
+    'iso6392' => NULL,
+    'langconfig' => NULL,
+    'license' => NULL,
+    'mathslib' => NULL,
+    'media' => NULL,
+    'message' => '/home/u998084134/public_html/message',
+    'mimetypes' => NULL,
+    'mnet' => '/home/u998084134/public_html/mnet',
+    'my' => '/home/u998084134/public_html/my',
+    'notes' => '/home/u998084134/public_html/notes',
+    'pagetype' => NULL,
+    'pix' => NULL,
+    'plagiarism' => '/home/u998084134/public_html/plagiarism',
+    'plugin' => NULL,
+    'portfolio' => '/home/u998084134/public_html/portfolio',
+    'publish' => '/home/u998084134/public_html/course/publish',
+    'question' => '/home/u998084134/public_html/question',
+    'rating' => '/home/u998084134/public_html/rating',
+    'register' => '/home/u998084134/public_html/admin/registration',
+    'repository' => '/home/u998084134/public_html/repository',
+    'rss' => '/home/u998084134/public_html/rss',
+    'role' => '/home/u998084134/public_html/admin/roles',
+    'search' => NULL,
+    'table' => NULL,
+    'tag' => '/home/u998084134/public_html/tag',
+    'timezones' => NULL,
+    'user' => '/home/u998084134/public_html/user',
+    'userkey' => NULL,
+    'webservice' => '/home/u998084134/public_html/webservice',
+  ),
+  'plugintypes' => 
+  array (
+    'qtype' => '/home/u998084134/public_html/question/type',
+    'mod' => '/home/u998084134/public_html/mod',
+    'auth' => '/home/u998084134/public_html/auth',
+    'calendartype' => '/home/u998084134/public_html/calendar/type',
+    'enrol' => '/home/u998084134/public_html/enrol',
+    'message' => '/home/u998084134/public_html/message/output',
+    'block' => '/home/u998084134/public_html/blocks',
+    'filter' => '/home/u998084134/public_html/filter',
+    'editor' => '/home/u998084134/public_html/lib/editor',
+    'format' => '/home/u998084134/public_html/course/format',
+    'profilefield' => '/home/u998084134/public_html/user/profile/field',
+    'report' => '/home/u998084134/public_html/report',
+    'coursereport' => '/home/u998084134/public_html/course/report',
+    'gradeexport' => '/home/u998084134/public_html/grade/export',
+    'gradeimport' => '/home/u998084134/public_html/grade/import',
+    'gradereport' => '/home/u998084134/public_html/grade/report',
+    'gradingform' => '/home/u998084134/public_html/grade/grading/form',
+    'mnetservice' => '/home/u998084134/public_html/mnet/service',
+    'webservice' => '/home/u998084134/public_html/webservice',
+    'repository' => '/home/u998084134/public_html/repository',
+    'portfolio' => '/home/u998084134/public_html/portfolio',
+    'qbehaviour' => '/home/u998084134/public_html/question/behaviour',
+    'qformat' => '/home/u998084134/public_html/question/format',
+    'plagiarism' => '/home/u998084134/public_html/plagiarism',
+    'tool' => '/home/u998084134/public_html/admin/tool',
+    'cachestore' => '/home/u998084134/public_html/cache/stores',
+    'cachelock' => '/home/u998084134/public_html/cache/locks',
+    'theme' => '/home/u998084134/public_html/theme',
+    'assignsubmission' => '/home/u998084134/public_html/mod/assign/submission',
+    'assignfeedback' => '/home/u998084134/public_html/mod/assign/feedback',
+    'assignment' => '/home/u998084134/public_html/mod/assignment/type',
+    'booktool' => '/home/u998084134/public_html/mod/book/tool',
+    'datafield' => '/home/u998084134/public_html/mod/data/field',
+    'datapreset' => '/home/u998084134/public_html/mod/data/preset',
+    'ltisource' => '/home/u998084134/public_html/mod/lti/source',
+    'quiz' => '/home/u998084134/public_html/mod/quiz/report',
+    'quizaccess' => '/home/u998084134/public_html/mod/quiz/accessrule',
+    'scormreport' => '/home/u998084134/public_html/mod/scorm/report',
+    'workshopform' => '/home/u998084134/public_html/mod/workshop/form',
+    'workshopallocation' => '/home/u998084134/public_html/mod/workshop/allocation',
+    'workshopeval' => '/home/u998084134/public_html/mod/workshop/eval',
+    'tinymce' => '/home/u998084134/public_html/lib/editor/tinymce/plugins',
+    'local' => '/home/u998084134/public_html/local',
+  ),
+  'plugins' => 
+  array (
+    'qtype' => 
+    array (
+      'calculated' => '/home/u998084134/public_html/question/type/calculated',
+      'calculatedmulti' => '/home/u998084134/public_html/question/type/calculatedmulti',
+      'calculatedsimple' => '/home/u998084134/public_html/question/type/calculatedsimple',
+      'description' => '/home/u998084134/public_html/question/type/description',
+      'essay' => '/home/u998084134/public_html/question/type/essay',
+      'match' => '/home/u998084134/public_html/question/type/match',
+      'missingtype' => '/home/u998084134/public_html/question/type/missingtype',
+      'multianswer' => '/home/u998084134/public_html/question/type/multianswer',
+      'multichoice' => '/home/u998084134/public_html/question/type/multichoice',
+      'numerical' => '/home/u998084134/public_html/question/type/numerical',
+      'random' => '/home/u998084134/public_html/question/type/random',
+      'randomsamatch' => '/home/u998084134/public_html/question/type/randomsamatch',
+      'shortanswer' => '/home/u998084134/public_html/question/type/shortanswer',
+      'truefalse' => '/home/u998084134/public_html/question/type/truefalse',
+    ),
+    'mod' => 
+    array (
+      'assign' => '/home/u998084134/public_html/mod/assign',
+      'assignment' => '/home/u998084134/public_html/mod/assignment',
+      'book' => '/home/u998084134/public_html/mod/book',
+      'chat' => '/home/u998084134/public_html/mod/chat',
+      'choice' => '/home/u998084134/public_html/mod/choice',
+      'data' => '/home/u998084134/public_html/mod/data',
+      'feedback' => '/home/u998084134/public_html/mod/feedback',
+      'folder' => '/home/u998084134/public_html/mod/folder',
+      'forum' => '/home/u998084134/public_html/mod/forum',
+      'glossary' => '/home/u998084134/public_html/mod/glossary',
+      'imscp' => '/home/u998084134/public_html/mod/imscp',
+      'label' => '/home/u998084134/public_html/mod/label',
+      'lesson' => '/home/u998084134/public_html/mod/lesson',
+      'lti' => '/home/u998084134/public_html/mod/lti',
+      'page' => '/home/u998084134/public_html/mod/page',
+      'quiz' => '/home/u998084134/public_html/mod/quiz',
+      'resource' => '/home/u998084134/public_html/mod/resource',
+      'scorm' => '/home/u998084134/public_html/mod/scorm',
+      'survey' => '/home/u998084134/public_html/mod/survey',
+      'url' => '/home/u998084134/public_html/mod/url',
+      'wiki' => '/home/u998084134/public_html/mod/wiki',
+      'workshop' => '/home/u998084134/public_html/mod/workshop',
+    ),
+    'auth' => 
+    array (
+      'cas' => '/home/u998084134/public_html/auth/cas',
+      'db' => '/home/u998084134/public_html/auth/db',
+      'email' => '/home/u998084134/public_html/auth/email',
+      'fc' => '/home/u998084134/public_html/auth/fc',
+      'imap' => '/home/u998084134/public_html/auth/imap',
+      'ldap' => '/home/u998084134/public_html/auth/ldap',
+      'manual' => '/home/u998084134/public_html/auth/manual',
+      'mnet' => '/home/u998084134/public_html/auth/mnet',
+      'nntp' => '/home/u998084134/public_html/auth/nntp',
+      'nologin' => '/home/u998084134/public_html/auth/nologin',
+      'none' => '/home/u998084134/public_html/auth/none',
+      'pam' => '/home/u998084134/public_html/auth/pam',
+      'pop3' => '/home/u998084134/public_html/auth/pop3',
+      'radius' => '/home/u998084134/public_html/auth/radius',
+      'shibboleth' => '/home/u998084134/public_html/auth/shibboleth',
+      'webservice' => '/home/u998084134/public_html/auth/webservice',
+    ),
+    'calendartype' => 
+    array (
+      'gregorian' => '/home/u998084134/public_html/calendar/type/gregorian',
+    ),
+    'enrol' => 
+    array (
+      'category' => '/home/u998084134/public_html/enrol/category',
+      'cohort' => '/home/u998084134/public_html/enrol/cohort',
+      'database' => '/home/u998084134/public_html/enrol/database',
+      'flatfile' => '/home/u998084134/public_html/enrol/flatfile',
+      'guest' => '/home/u998084134/public_html/enrol/guest',
+      'imsenterprise' => '/home/u998084134/public_html/enrol/imsenterprise',
+      'ldap' => '/home/u998084134/public_html/enrol/ldap',
+      'manual' => '/home/u998084134/public_html/enrol/manual',
+      'meta' => '/home/u998084134/public_html/enrol/meta',
+      'mnet' => '/home/u998084134/public_html/enrol/mnet',
+      'paypal' => '/home/u998084134/public_html/enrol/paypal',
+      'self' => '/home/u998084134/public_html/enrol/self',
+    ),
+    'message' => 
+    array (
+      'email' => '/home/u998084134/public_html/message/output/email',
+      'jabber' => '/home/u998084134/public_html/message/output/jabber',
+      'popup' => '/home/u998084134/public_html/message/output/popup',
+    ),
+    'block' => 
+    array (
+      'activity_modules' => '/home/u998084134/public_html/blocks/activity_modules',
+      'admin_bookmarks' => '/home/u998084134/public_html/blocks/admin_bookmarks',
+      'badges' => '/home/u998084134/public_html/blocks/badges',
+      'blog_menu' => '/home/u998084134/public_html/blocks/blog_menu',
+      'blog_recent' => '/home/u998084134/public_html/blocks/blog_recent',
+      'blog_tags' => '/home/u998084134/public_html/blocks/blog_tags',
+      'calendar_month' => '/home/u998084134/public_html/blocks/calendar_month',
+      'calendar_upcoming' => '/home/u998084134/public_html/blocks/calendar_upcoming',
+      'comments' => '/home/u998084134/public_html/blocks/comments',
+      'community' => '/home/u998084134/public_html/blocks/community',
+      'completionstatus' => '/home/u998084134/public_html/blocks/completionstatus',
+      'course_list' => '/home/u998084134/public_html/blocks/course_list',
+      'course_overview' => '/home/u998084134/public_html/blocks/course_overview',
+      'course_summary' => '/home/u998084134/public_html/blocks/course_summary',
+      'feedback' => '/home/u998084134/public_html/blocks/feedback',
+      'glossary_random' => '/home/u998084134/public_html/blocks/glossary_random',
+      'html' => '/home/u998084134/public_html/blocks/html',
+      'login' => '/home/u998084134/public_html/blocks/login',
+      'mentees' => '/home/u998084134/public_html/blocks/mentees',
+      'messages' => '/home/u998084134/public_html/blocks/messages',
+      'mnet_hosts' => '/home/u998084134/public_html/blocks/mnet_hosts',
+      'myprofile' => '/home/u998084134/public_html/blocks/myprofile',
+      'navigation' => '/home/u998084134/public_html/blocks/navigation',
+      'news_items' => '/home/u998084134/public_html/blocks/news_items',
+      'online_users' => '/home/u998084134/public_html/blocks/online_users',
+      'participants' => '/home/u998084134/public_html/blocks/participants',
+      'private_files' => '/home/u998084134/public_html/blocks/private_files',
+      'quiz_results' => '/home/u998084134/public_html/blocks/quiz_results',
+      'recent_activity' => '/home/u998084134/public_html/blocks/recent_activity',
+      'rss_client' => '/home/u998084134/public_html/blocks/rss_client',
+      'search_forums' => '/home/u998084134/public_html/blocks/search_forums',
+      'section_links' => '/home/u998084134/public_html/blocks/section_links',
+      'selfcompletion' => '/home/u998084134/public_html/blocks/selfcompletion',
+      'settings' => '/home/u998084134/public_html/blocks/settings',
+      'site_main_menu' => '/home/u998084134/public_html/blocks/site_main_menu',
+      'social_activities' => '/home/u998084134/public_html/blocks/social_activities',
+      'tag_flickr' => '/home/u998084134/public_html/blocks/tag_flickr',
+      'tag_youtube' => '/home/u998084134/public_html/blocks/tag_youtube',
+      'tags' => '/home/u998084134/public_html/blocks/tags',
+    ),
+    'filter' => 
+    array (
+      'activitynames' => '/home/u998084134/public_html/filter/activitynames',
+      'algebra' => '/home/u998084134/public_html/filter/algebra',
+      'censor' => '/home/u998084134/public_html/filter/censor',
+      'data' => '/home/u998084134/public_html/filter/data',
+      'emailprotect' => '/home/u998084134/public_html/filter/emailprotect',
+      'emoticon' => '/home/u998084134/public_html/filter/emoticon',
+      'glossary' => '/home/u998084134/public_html/filter/glossary',
+      'mediaplugin' => '/home/u998084134/public_html/filter/mediaplugin',
+      'multilang' => '/home/u998084134/public_html/filter/multilang',
+      'tex' => '/home/u998084134/public_html/filter/tex',
+      'tidy' => '/home/u998084134/public_html/filter/tidy',
+      'urltolink' => '/home/u998084134/public_html/filter/urltolink',
+    ),
+    'editor' => 
+    array (
+      'textarea' => '/home/u998084134/public_html/lib/editor/textarea',
+      'tinymce' => '/home/u998084134/public_html/lib/editor/tinymce',
+    ),
+    'format' => 
+    array (
+      'singleactivity' => '/home/u998084134/public_html/course/format/singleactivity',
+      'social' => '/home/u998084134/public_html/course/format/social',
+      'topics' => '/home/u998084134/public_html/course/format/topics',
+      'weeks' => '/home/u998084134/public_html/course/format/weeks',
+    ),
+    'profilefield' => 
+    array (
+      'checkbox' => '/home/u998084134/public_html/user/profile/field/checkbox',
+      'datetime' => '/home/u998084134/public_html/user/profile/field/datetime',
+      'menu' => '/home/u998084134/public_html/user/profile/field/menu',
+      'text' => '/home/u998084134/public_html/user/profile/field/text',
+      'textarea' => '/home/u998084134/public_html/user/profile/field/textarea',
+    ),
+    'report' => 
+    array (
+      'backups' => '/home/u998084134/public_html/report/backups',
+      'completion' => '/home/u998084134/public_html/report/completion',
+      'configlog' => '/home/u998084134/public_html/report/configlog',
+      'courseoverview' => '/home/u998084134/public_html/report/courseoverview',
+      'log' => '/home/u998084134/public_html/report/log',
+      'loglive' => '/home/u998084134/public_html/report/loglive',
+      'outline' => '/home/u998084134/public_html/report/outline',
+      'participation' => '/home/u998084134/public_html/report/participation',
+      'performance' => '/home/u998084134/public_html/report/performance',
+      'progress' => '/home/u998084134/public_html/report/progress',
+      'questioninstances' => '/home/u998084134/public_html/report/questioninstances',
+      'security' => '/home/u998084134/public_html/report/security',
+      'stats' => '/home/u998084134/public_html/report/stats',
+    ),
+    'coursereport' => 
+    array (
+    ),
+    'gradeexport' => 
+    array (
+      'ods' => '/home/u998084134/public_html/grade/export/ods',
+      'txt' => '/home/u998084134/public_html/grade/export/txt',
+      'xls' => '/home/u998084134/public_html/grade/export/xls',
+      'xml' => '/home/u998084134/public_html/grade/export/xml',
+    ),
+    'gradeimport' => 
+    array (
+      'csv' => '/home/u998084134/public_html/grade/import/csv',
+      'xml' => '/home/u998084134/public_html/grade/import/xml',
+    ),
+    'gradereport' => 
+    array (
+      'grader' => '/home/u998084134/public_html/grade/report/grader',
+      'outcomes' => '/home/u998084134/public_html/grade/report/outcomes',
+      'overview' => '/home/u998084134/public_html/grade/report/overview',
+      'user' => '/home/u998084134/public_html/grade/report/user',
+    ),
+    'gradingform' => 
+    array (
+      'guide' => '/home/u998084134/public_html/grade/grading/form/guide',
+      'rubric' => '/home/u998084134/public_html/grade/grading/form/rubric',
+    ),
+    'mnetservice' => 
+    array (
+      'enrol' => '/home/u998084134/public_html/mnet/service/enrol',
+    ),
+    'webservice' => 
+    array (
+      'amf' => '/home/u998084134/public_html/webservice/amf',
+      'rest' => '/home/u998084134/public_html/webservice/rest',
+      'soap' => '/home/u998084134/public_html/webservice/soap',
+      'xmlrpc' => '/home/u998084134/public_html/webservice/xmlrpc',
+    ),
+    'repository' => 
+    array (
+      'alfresco' => '/home/u998084134/public_html/repository/alfresco',
+      'areafiles' => '/home/u998084134/public_html/repository/areafiles',
+      'boxnet' => '/home/u998084134/public_html/repository/boxnet',
+      'coursefiles' => '/home/u998084134/public_html/repository/coursefiles',
+      'dropbox' => '/home/u998084134/public_html/repository/dropbox',
+      'equella' => '/home/u998084134/public_html/repository/equella',
+      'filesystem' => '/home/u998084134/public_html/repository/filesystem',
+      'flickr' => '/home/u998084134/public_html/repository/flickr',
+      'flickr_public' => '/home/u998084134/public_html/repository/flickr_public',
+      'googledocs' => '/home/u998084134/public_html/repository/googledocs',
+      'local' => '/home/u998084134/public_html/repository/local',
+      'merlot' => '/home/u998084134/public_html/repository/merlot',
+      'picasa' => '/home/u998084134/public_html/repository/picasa',
+      'recent' => '/home/u998084134/public_html/repository/recent',
+      's3' => '/home/u998084134/public_html/repository/s3',
+      'skydrive' => '/home/u998084134/public_html/repository/skydrive',
+      'upload' => '/home/u998084134/public_html/repository/upload',
+      'url' => '/home/u998084134/public_html/repository/url',
+      'user' => '/home/u998084134/public_html/repository/user',
+      'webdav' => '/home/u998084134/public_html/repository/webdav',
+      'wikimedia' => '/home/u998084134/public_html/repository/wikimedia',
+      'youtube' => '/home/u998084134/public_html/repository/youtube',
+    ),
+    'portfolio' => 
+    array (
+      'boxnet' => '/home/u998084134/public_html/portfolio/boxnet',
+      'download' => '/home/u998084134/public_html/portfolio/download',
+      'flickr' => '/home/u998084134/public_html/portfolio/flickr',
+      'googledocs' => '/home/u998084134/public_html/portfolio/googledocs',
+      'mahara' => '/home/u998084134/public_html/portfolio/mahara',
+      'picasa' => '/home/u998084134/public_html/portfolio/picasa',
+    ),
+    'qbehaviour' => 
+    array (
+      'adaptive' => '/home/u998084134/public_html/question/behaviour/adaptive',
+      'adaptivenopenalty' => '/home/u998084134/public_html/question/behaviour/adaptivenopenalty',
+      'deferredcbm' => '/home/u998084134/public_html/question/behaviour/deferredcbm',
+      'deferredfeedback' => '/home/u998084134/public_html/question/behaviour/deferredfeedback',
+      'immediatecbm' => '/home/u998084134/public_html/question/behaviour/immediatecbm',
+      'immediatefeedback' => '/home/u998084134/public_html/question/behaviour/immediatefeedback',
+      'informationitem' => '/home/u998084134/public_html/question/behaviour/informationitem',
+      'interactive' => '/home/u998084134/public_html/question/behaviour/interactive',
+      'interactivecountback' => '/home/u998084134/public_html/question/behaviour/interactivecountback',
+      'manualgraded' => '/home/u998084134/public_html/question/behaviour/manualgraded',
+      'missing' => '/home/u998084134/public_html/question/behaviour/missing',
+    ),
+    'qformat' => 
+    array (
+      'aiken' => '/home/u998084134/public_html/question/format/aiken',
+      'blackboard_six' => '/home/u998084134/public_html/question/format/blackboard_six',
+      'examview' => '/home/u998084134/public_html/question/format/examview',
+      'gift' => '/home/u998084134/public_html/question/format/gift',
+      'learnwise' => '/home/u998084134/public_html/question/format/learnwise',
+      'missingword' => '/home/u998084134/public_html/question/format/missingword',
+      'multianswer' => '/home/u998084134/public_html/question/format/multianswer',
+      'webct' => '/home/u998084134/public_html/question/format/webct',
+      'xhtml' => '/home/u998084134/public_html/question/format/xhtml',
+      'xml' => '/home/u998084134/public_html/question/format/xml',
+    ),
+    'plagiarism' => 
+    array (
+    ),
+    'tool' => 
+    array (
+      'assignmentupgrade' => '/home/u998084134/public_html/admin/tool/assignmentupgrade',
+      'behat' => '/home/u998084134/public_html/admin/tool/behat',
+      'capability' => '/home/u998084134/public_html/admin/tool/capability',
+      'customlang' => '/home/u998084134/public_html/admin/tool/customlang',
+      'dbtransfer' => '/home/u998084134/public_html/admin/tool/dbtransfer',
+      'generator' => '/home/u998084134/public_html/admin/tool/generator',
+      'health' => '/home/u998084134/public_html/admin/tool/health',
+      'innodb' => '/home/u998084134/public_html/admin/tool/innodb',
+      'installaddon' => '/home/u998084134/public_html/admin/tool/installaddon',
+      'langimport' => '/home/u998084134/public_html/admin/tool/langimport',
+      'multilangupgrade' => '/home/u998084134/public_html/admin/tool/multilangupgrade',
+      'phpunit' => '/home/u998084134/public_html/admin/tool/phpunit',
+      'profiling' => '/home/u998084134/public_html/admin/tool/profiling',
+      'qeupgradehelper' => '/home/u998084134/public_html/admin/tool/qeupgradehelper',
+      'replace' => '/home/u998084134/public_html/admin/tool/replace',
+      'spamcleaner' => '/home/u998084134/public_html/admin/tool/spamcleaner',
+      'timezoneimport' => '/home/u998084134/public_html/admin/tool/timezoneimport',
+      'unsuproles' => '/home/u998084134/public_html/admin/tool/unsuproles',
+      'uploadcourse' => '/home/u998084134/public_html/admin/tool/uploadcourse',
+      'uploaduser' => '/home/u998084134/public_html/admin/tool/uploaduser',
+      'xmldb' => '/home/u998084134/public_html/admin/tool/xmldb',
+    ),
+    'cachestore' => 
+    array (
+      'file' => '/home/u998084134/public_html/cache/stores/file',
+      'memcache' => '/home/u998084134/public_html/cache/stores/memcache',
+      'memcached' => '/home/u998084134/public_html/cache/stores/memcached',
+      'mongodb' => '/home/u998084134/public_html/cache/stores/mongodb',
+      'session' => '/home/u998084134/public_html/cache/stores/session',
+      'static' => '/home/u998084134/public_html/cache/stores/static',
+    ),
+    'cachelock' => 
+    array (
+      'file' => '/home/u998084134/public_html/cache/locks/file',
+    ),
+    'theme' => 
+    array (
+      'aardvark' => '/home/u998084134/public_html/theme/aardvark',
+      'afterburner' => '/home/u998084134/public_html/theme/afterburner',
+      'anomaly' => '/home/u998084134/public_html/theme/anomaly',
+      'arialist' => '/home/u998084134/public_html/theme/arialist',
+      'base' => '/home/u998084134/public_html/theme/base',
+      'binarius' => '/home/u998084134/public_html/theme/binarius',
+      'bootstrapbase' => '/home/u998084134/public_html/theme/bootstrapbase',
+      'boxxie' => '/home/u998084134/public_html/theme/boxxie',
+      'brick' => '/home/u998084134/public_html/theme/brick',
+      'canvas' => '/home/u998084134/public_html/theme/canvas',
+      'clean' => '/home/u998084134/public_html/theme/clean',
+      'formal_white' => '/home/u998084134/public_html/theme/formal_white',
+      'formfactor' => '/home/u998084134/public_html/theme/formfactor',
+      'fusion' => '/home/u998084134/public_html/theme/fusion',
+      'leatherbound' => '/home/u998084134/public_html/theme/leatherbound',
+      'magazine' => '/home/u998084134/public_html/theme/magazine',
+      'nimble' => '/home/u998084134/public_html/theme/nimble',
+      'nonzero' => '/home/u998084134/public_html/theme/nonzero',
+      'overlay' => '/home/u998084134/public_html/theme/overlay',
+      'serenity' => '/home/u998084134/public_html/theme/serenity',
+      'sky_high' => '/home/u998084134/public_html/theme/sky_high',
+      'splash' => '/home/u998084134/public_html/theme/splash',
+      'standard' => '/home/u998084134/public_html/theme/standard',
+      'standardold' => '/home/u998084134/public_html/theme/standardold',
+    ),
+    'assignsubmission' => 
+    array (
+      'comments' => '/home/u998084134/public_html/mod/assign/submission/comments',
+      'file' => '/home/u998084134/public_html/mod/assign/submission/file',
+      'onlinetext' => '/home/u998084134/public_html/mod/assign/submission/onlinetext',
+    ),
+    'assignfeedback' => 
+    array (
+      'comments' => '/home/u998084134/public_html/mod/assign/feedback/comments',
+      'editpdf' => '/home/u998084134/public_html/mod/assign/feedback/editpdf',
+      'file' => '/home/u998084134/public_html/mod/assign/feedback/file',
+      'offline' => '/home/u998084134/public_html/mod/assign/feedback/offline',
+    ),
+    'assignment' => 
+    array (
+      'offline' => '/home/u998084134/public_html/mod/assignment/type/offline',
+      'online' => '/home/u998084134/public_html/mod/assignment/type/online',
+      'upload' => '/home/u998084134/public_html/mod/assignment/type/upload',
+      'uploadsingle' => '/home/u998084134/public_html/mod/assignment/type/uploadsingle',
+    ),
+    'booktool' => 
+    array (
+      'exportimscp' => '/home/u998084134/public_html/mod/book/tool/exportimscp',
+      'importhtml' => '/home/u998084134/public_html/mod/book/tool/importhtml',
+      'print' => '/home/u998084134/public_html/mod/book/tool/print',
+    ),
+    'datafield' => 
+    array (
+      'checkbox' => '/home/u998084134/public_html/mod/data/field/checkbox',
+      'date' => '/home/u998084134/public_html/mod/data/field/date',
+      'file' => '/home/u998084134/public_html/mod/data/field/file',
+      'latlong' => '/home/u998084134/public_html/mod/data/field/latlong',
+      'menu' => '/home/u998084134/public_html/mod/data/field/menu',
+      'multimenu' => '/home/u998084134/public_html/mod/data/field/multimenu',
+      'number' => '/home/u998084134/public_html/mod/data/field/number',
+      'picture' => '/home/u998084134/public_html/mod/data/field/picture',
+      'radiobutton' => '/home/u998084134/public_html/mod/data/field/radiobutton',
+      'text' => '/home/u998084134/public_html/mod/data/field/text',
+      'textarea' => '/home/u998084134/public_html/mod/data/field/textarea',
+      'url' => '/home/u998084134/public_html/mod/data/field/url',
+    ),
+    'datapreset' => 
+    array (
+      'imagegallery' => '/home/u998084134/public_html/mod/data/preset/imagegallery',
+    ),
+    'ltisource' => 
+    array (
+    ),
+    'quiz' => 
+    array (
+      'grading' => '/home/u998084134/public_html/mod/quiz/report/grading',
+      'overview' => '/home/u998084134/public_html/mod/quiz/report/overview',
+      'responses' => '/home/u998084134/public_html/mod/quiz/report/responses',
+      'statistics' => '/home/u998084134/public_html/mod/quiz/report/statistics',
+    ),
+    'quizaccess' => 
+    array (
+      'delaybetweenattempts' => '/home/u998084134/public_html/mod/quiz/accessrule/delaybetweenattempts',
+      'ipaddress' => '/home/u998084134/public_html/mod/quiz/accessrule/ipaddress',
+      'numattempts' => '/home/u998084134/public_html/mod/quiz/accessrule/numattempts',
+      'openclosedate' => '/home/u998084134/public_html/mod/quiz/accessrule/openclosedate',
+      'password' => '/home/u998084134/public_html/mod/quiz/accessrule/password',
+      'safebrowser' => '/home/u998084134/public_html/mod/quiz/accessrule/safebrowser',
+      'securewindow' => '/home/u998084134/public_html/mod/quiz/accessrule/securewindow',
+      'timelimit' => '/home/u998084134/public_html/mod/quiz/accessrule/timelimit',
+    ),
+    'scormreport' => 
+    array (
+      'basic' => '/home/u998084134/public_html/mod/scorm/report/basic',
+      'graphs' => '/home/u998084134/public_html/mod/scorm/report/graphs',
+      'interactions' => '/home/u998084134/public_html/mod/scorm/report/interactions',
+      'objectives' => '/home/u998084134/public_html/mod/scorm/report/objectives',
+    ),
+    'workshopform' => 
+    array (
+      'accumulative' => '/home/u998084134/public_html/mod/workshop/form/accumulative',
+      'comments' => '/home/u998084134/public_html/mod/workshop/form/comments',
+      'numerrors' => '/home/u998084134/public_html/mod/workshop/form/numerrors',
+      'rubric' => '/home/u998084134/public_html/mod/workshop/form/rubric',
+    ),
+    'workshopallocation' => 
+    array (
+      'manual' => '/home/u998084134/public_html/mod/workshop/allocation/manual',
+      'random' => '/home/u998084134/public_html/mod/workshop/allocation/random',
+      'scheduled' => '/home/u998084134/public_html/mod/workshop/allocation/scheduled',
+    ),
+    'workshopeval' => 
+    array (
+      'best' => '/home/u998084134/public_html/mod/workshop/eval/best',
+    ),
+    'tinymce' => 
+    array (
+      'ctrlhelp' => '/home/u998084134/public_html/lib/editor/tinymce/plugins/ctrlhelp',
+      'dragmath' => '/home/u998084134/public_html/lib/editor/tinymce/plugins/dragmath',
+      'managefiles' => '/home/u998084134/public_html/lib/editor/tinymce/plugins/managefiles',
+      'moodleemoticon' => '/home/u998084134/public_html/lib/editor/tinymce/plugins/moodleemoticon',
+      'moodleimage' => '/home/u998084134/public_html/lib/editor/tinymce/plugins/moodleimage',
+      'moodlemedia' => '/home/u998084134/public_html/lib/editor/tinymce/plugins/moodlemedia',
+      'moodlenolink' => '/home/u998084134/public_html/lib/editor/tinymce/plugins/moodlenolink',
+      'pdw' => '/home/u998084134/public_html/lib/editor/tinymce/plugins/pdw',
+      'spellchecker' => '/home/u998084134/public_html/lib/editor/tinymce/plugins/spellchecker',
+      'wrap' => '/home/u998084134/public_html/lib/editor/tinymce/plugins/wrap',
+    ),
+    'local' => 
+    array (
+    ),
+  ),
+  'parents' => 
+  array (
+    'assignsubmission' => 'mod_assign',
+    'assignfeedback' => 'mod_assign',
+    'assignment' => 'mod_assignment',
+    'booktool' => 'mod_book',
+    'datafield' => 'mod_data',
+    'datapreset' => 'mod_data',
+    'ltisource' => 'mod_lti',
+    'quiz' => 'mod_quiz',
+    'quizaccess' => 'mod_quiz',
+    'scormreport' => 'mod_scorm',
+    'workshopform' => 'mod_workshop',
+    'workshopallocation' => 'mod_workshop',
+    'workshopeval' => 'mod_workshop',
+    'tinymce' => 'editor_tinymce',
+  ),
+  'subplugins' => 
+  array (
+    'mod_assign' => 
+    array (
+      'assignsubmission' => 
+      array (
+        0 => 'comments',
+        1 => 'file',
+        2 => 'onlinetext',
+      ),
+      'assignfeedback' => 
+      array (
+        0 => 'comments',
+        1 => 'editpdf',
+        2 => 'file',
+        3 => 'offline',
+      ),
+    ),
+    'mod_assignment' => 
+    array (
+      'assignment' => 
+      array (
+        0 => 'offline',
+        1 => 'online',
+        2 => 'upload',
+        3 => 'uploadsingle',
+      ),
+    ),
+    'mod_book' => 
+    array (
+      'booktool' => 
+      array (
+        0 => 'exportimscp',
+        1 => 'importhtml',
+        2 => 'print',
+      ),
+    ),
+    'mod_data' => 
+    array (
+      'datafield' => 
+      array (
+        0 => 'checkbox',
+        1 => 'date',
+        2 => 'file',
+        3 => 'latlong',
+        4 => 'menu',
+        5 => 'multimenu',
+        6 => 'number',
+        7 => 'picture',
+        8 => 'radiobutton',
+        9 => 'text',
+        10 => 'textarea',
+        11 => 'url',
+      ),
+      'datapreset' => 
+      array (
+        0 => 'imagegallery',
+      ),
+    ),
+    'mod_lti' => 
+    array (
+      'ltisource' => 
+      array (
+      ),
+    ),
+    'mod_quiz' => 
+    array (
+      'quiz' => 
+      array (
+        0 => 'grading',
+        1 => 'overview',
+        2 => 'responses',
+        3 => 'statistics',
+      ),
+      'quizaccess' => 
+      array (
+        0 => 'delaybetweenattempts',
+        1 => 'ipaddress',
+        2 => 'numattempts',
+        3 => 'openclosedate',
+        4 => 'password',
+        5 => 'safebrowser',
+        6 => 'securewindow',
+        7 => 'timelimit',
+      ),
+    ),
+    'mod_scorm' => 
+    array (
+      'scormreport' => 
+      array (
+        0 => 'basic',
+        1 => 'graphs',
+        2 => 'interactions',
+        3 => 'objectives',
+      ),
+    ),
+    'mod_workshop' => 
+    array (
+      'workshopform' => 
+      array (
+        0 => 'accumulative',
+        1 => 'comments',
+        2 => 'numerrors',
+        3 => 'rubric',
+      ),
+      'workshopallocation' => 
+      array (
+        0 => 'manual',
+        1 => 'random',
+        2 => 'scheduled',
+      ),
+      'workshopeval' => 
+      array (
+        0 => 'best',
+      ),
+    ),
+    'editor_tinymce' => 
+    array (
+      'tinymce' => 
+      array (
+        0 => 'ctrlhelp',
+        1 => 'dragmath',
+        2 => 'managefiles',
+        3 => 'moodleemoticon',
+        4 => 'moodleimage',
+        5 => 'moodlemedia',
+        6 => 'moodlenolink',
+        7 => 'pdw',
+        8 => 'spellchecker',
+        9 => 'wrap',
+      ),
+    ),
+  ),
+  'classmap' => 
+  array (
+    'core_string_manager_install' => '/home/u998084134/public_html/lib/classes/string_manager_install.php',
+    'core\\string_manager_install' => '/home/u998084134/public_html/lib/classes/string_manager_install.php',
+    'core_shutdown_manager' => '/home/u998084134/public_html/lib/classes/shutdown_manager.php',
+    'core\\shutdown_manager' => '/home/u998084134/public_html/lib/classes/shutdown_manager.php',
+    'core\\session\\handler' => '/home/u998084134/public_html/lib/classes/session/handler.php',
+    'core\\session\\database' => '/home/u998084134/public_html/lib/classes/session/database.php',
+    'core\\session\\file' => '/home/u998084134/public_html/lib/classes/session/file.php',
+    'core\\session\\memcached' => '/home/u998084134/public_html/lib/classes/session/memcached.php',
+    'core\\session\\exception' => '/home/u998084134/public_html/lib/classes/session/exception.php',
+    'core\\session\\manager' => '/home/u998084134/public_html/lib/classes/session/manager.php',
+    'core_collator' => '/home/u998084134/public_html/lib/classes/collator.php',
+    'core\\collator' => '/home/u998084134/public_html/lib/classes/collator.php',
+    'core\\plugininfo\\filter' => '/home/u998084134/public_html/lib/classes/plugininfo/filter.php',
+    'core\\plugininfo\\coursereport' => '/home/u998084134/public_html/lib/classes/plugininfo/coursereport.php',
+    'core\\plugininfo\\plagiarism' => '/home/u998084134/public_html/lib/classes/plugininfo/plagiarism.php',
+    'core\\plugininfo\\calendartype' => '/home/u998084134/public_html/lib/classes/plugininfo/calendartype.php',
+    'core\\plugininfo\\gradeimport' => '/home/u998084134/public_html/lib/classes/plugininfo/gradeimport.php',
+    'core\\plugininfo\\general' => '/home/u998084134/public_html/lib/classes/plugininfo/general.php',
+    'core\\plugininfo\\auth' => '/home/u998084134/public_html/lib/classes/plugininfo/auth.php',
+    'core\\plugininfo\\qtype' => '/home/u998084134/public_html/lib/classes/plugininfo/qtype.php',
+    'core\\plugininfo\\report' => '/home/u998084134/public_html/lib/classes/plugininfo/report.php',
+    'core\\plugininfo\\cachelock' => '/home/u998084134/public_html/lib/classes/plugininfo/cachelock.php',
+    'core\\plugininfo\\repository' => '/home/u998084134/public_html/lib/classes/plugininfo/repository.php',
+    'core\\plugininfo\\gradingform' => '/home/u998084134/public_html/lib/classes/plugininfo/gradingform.php',
+    'core\\plugininfo\\editor' => '/home/u998084134/public_html/lib/classes/plugininfo/editor.php',
+    'core\\plugininfo\\local' => '/home/u998084134/public_html/lib/classes/plugininfo/local.php',
+    'core\\plugininfo\\orphaned' => '/home/u998084134/public_html/lib/classes/plugininfo/orphaned.php',
+    'core\\plugininfo\\message' => '/home/u998084134/public_html/lib/classes/plugininfo/message.php',
+    'core\\plugininfo\\theme' => '/home/u998084134/public_html/lib/classes/plugininfo/theme.php',
+    'core\\plugininfo\\format' => '/home/u998084134/public_html/lib/classes/plugininfo/format.php',
+    'core\\plugininfo\\portfolio' => '/home/u998084134/public_html/lib/classes/plugininfo/portfolio.php',
+    'core\\plugininfo\\webservice' => '/home/u998084134/public_html/lib/classes/plugininfo/webservice.php',
+    'core\\plugininfo\\block' => '/home/u998084134/public_html/lib/classes/plugininfo/block.php',
+    'core\\plugininfo\\base' => '/home/u998084134/public_html/lib/classes/plugininfo/base.php',
+    'core\\plugininfo\\gradeexport' => '/home/u998084134/public_html/lib/classes/plugininfo/gradeexport.php',
+    'core\\plugininfo\\profilefield' => '/home/u998084134/public_html/lib/classes/plugininfo/profilefield.php',
+    'core\\plugininfo\\gradereport' => '/home/u998084134/public_html/lib/classes/plugininfo/gradereport.php',
+    'core\\plugininfo\\enrol' => '/home/u998084134/public_html/lib/classes/plugininfo/enrol.php',
+    'core\\plugininfo\\mod' => '/home/u998084134/public_html/lib/classes/plugininfo/mod.php',
+    'core\\plugininfo\\mnetservice' => '/home/u998084134/public_html/lib/classes/plugininfo/mnetservice.php',
+    'core\\plugininfo\\tool' => '/home/u998084134/public_html/lib/classes/plugininfo/tool.php',
+    'core\\plugininfo\\cachestore' => '/home/u998084134/public_html/lib/classes/plugininfo/cachestore.php',
+    'core\\plugininfo\\qformat' => '/home/u998084134/public_html/lib/classes/plugininfo/qformat.php',
+    'core\\plugininfo\\qbehaviour' => '/home/u998084134/public_html/lib/classes/plugininfo/qbehaviour.php',
+    'core_component' => '/home/u998084134/public_html/lib/classes/component.php',
+    'core\\component' => '/home/u998084134/public_html/lib/classes/component.php',
+    'core\\update\\checker' => '/home/u998084134/public_html/lib/classes/update/checker.php',
+    'core\\update\\info' => '/home/u998084134/public_html/lib/classes/update/info.php',
+    'core\\update\\checker_exception' => '/home/u998084134/public_html/lib/classes/update/checker_exception.php',
+    'core\\update\\deployer' => '/home/u998084134/public_html/lib/classes/update/deployer.php',
+    'core_minify' => '/home/u998084134/public_html/lib/classes/minify.php',
+    'core\\minify' => '/home/u998084134/public_html/lib/classes/minify.php',
+    'core_plugin_manager' => '/home/u998084134/public_html/lib/classes/plugin_manager.php',
+    'core\\plugin_manager' => '/home/u998084134/public_html/lib/classes/plugin_manager.php',
+    'core\\event\\note_updated' => '/home/u998084134/public_html/lib/classes/event/note_updated.php',
+    'core\\event\\user_profile_viewed' => '/home/u998084134/public_html/lib/classes/event/user_profile_viewed.php',
+    'core\\event\\notes_viewed' => '/home/u998084134/public_html/lib/classes/event/notes_viewed.php',
+    'core\\event\\role_deleted' => '/home/u998084134/public_html/lib/classes/event/role_deleted.php',
+    'core\\event\\group_updated' => '/home/u998084134/public_html/lib/classes/event/group_updated.php',
+    'core\\event\\webservice_service_user_removed' => '/home/u998084134/public_html/lib/classes/event/webservice_service_user_removed.php',
+    'core\\event\\course_created' => '/home/u998084134/public_html/lib/classes/event/course_created.php',
+    'core\\event\\user_loggedinas' => '/home/u998084134/public_html/lib/classes/event/user_loggedinas.php',
+    'core\\event\\note_deleted' => '/home/u998084134/public_html/lib/classes/event/note_deleted.php',
+    'core\\event\\cohort_updated' => '/home/u998084134/public_html/lib/classes/event/cohort_updated.php',
+    'core\\event\\note_created' => '/home/u998084134/public_html/lib/classes/event/note_created.php',
+    'core\\event\\webservice_service_created' => '/home/u998084134/public_html/lib/classes/event/webservice_service_created.php',
+    'core\\event\\webservice_service_user_added' => '/home/u998084134/public_html/lib/classes/event/webservice_service_user_added.php',
+    'core\\event\\user_loggedin' => '/home/u998084134/public_html/lib/classes/event/user_loggedin.php',
+    'core\\event\\role_unassigned' => '/home/u998084134/public_html/lib/classes/event/role_unassigned.php',
+    'core\\event\\cohort_deleted' => '/home/u998084134/public_html/lib/classes/event/cohort_deleted.php',
+    'core\\event\\user_updated' => '/home/u998084134/public_html/lib/classes/event/user_updated.php',
+    'core\\event\\course_updated' => '/home/u998084134/public_html/lib/classes/event/course_updated.php',
+    'core\\event\\webservice_service_updated' => '/home/u998084134/public_html/lib/classes/event/webservice_service_updated.php',
+    'core\\event\\group_member_added' => '/home/u998084134/public_html/lib/classes/event/group_member_added.php',
+    'core\\event\\blog_entry_updated' => '/home/u998084134/public_html/lib/classes/event/blog_entry_updated.php',
+    'core\\event\\cohort_member_removed' => '/home/u998084134/public_html/lib/classes/event/cohort_member_removed.php',
+    'core\\event\\role_capabilities_updated' => '/home/u998084134/public_html/lib/classes/event/role_capabilities_updated.php',
+    'core\\event\\group_member_removed' => '/home/u998084134/public_html/lib/classes/event/group_member_removed.php',
+    'core\\event\\assessable_uploaded' => '/home/u998084134/public_html/lib/classes/event/assessable_uploaded.php',
+    'core\\event\\content_viewed' => '/home/u998084134/public_html/lib/classes/event/content_viewed.php',
+    'core\\event\\course_category_deleted' => '/home/u998084134/public_html/lib/classes/event/course_category_deleted.php',
+    'core\\event\\cohort_member_added' => '/home/u998084134/public_html/lib/classes/event/cohort_member_added.php',
+    'core\\event\\course_module_instances_list_viewed' => '/home/u998084134/public_html/lib/classes/event/course_module_instances_list_viewed.php',
+    'core\\event\\webservice_token_created' => '/home/u998084134/public_html/lib/classes/event/webservice_token_created.php',
+    'core\\event\\grouping_updated' => '/home/u998084134/public_html/lib/classes/event/grouping_updated.php',
+    'core\\event\\course_deleted' => '/home/u998084134/public_html/lib/classes/event/course_deleted.php',
+    'core\\event\\role_allow_switch_updated' => '/home/u998084134/public_html/lib/classes/event/role_allow_switch_updated.php',
+    'core\\event\\user_list_viewed' => '/home/u998084134/public_html/lib/classes/event/user_list_viewed.php',
+    'core\\event\\webservice_function_called' => '/home/u998084134/public_html/lib/classes/event/webservice_function_called.php',
+    'core\\event\\course_reset_ended' => '/home/u998084134/public_html/lib/classes/event/course_reset_ended.php',
+    'core\\event\\course_module_completion_updated' => '/home/u998084134/public_html/lib/classes/event/course_module_completion_updated.php',
+    'core\\event\\course_reset_started' => '/home/u998084134/public_html/lib/classes/event/course_reset_started.php',
+    'core\\event\\role_allow_override_updated' => '/home/u998084134/public_html/lib/classes/event/role_allow_override_updated.php',
+    'core\\event\\assessable_submitted' => '/home/u998084134/public_html/lib/classes/event/assessable_submitted.php',
+    'core\\event\\grouping_deleted' => '/home/u998084134/public_html/lib/classes/event/grouping_deleted.php',
+    'core\\event\\course_completed' => '/home/u998084134/public_html/lib/classes/event/course_completed.php',
+    'core\\event\\role_allow_assign_updated' => '/home/u998084134/public_html/lib/classes/event/role_allow_assign_updated.php',
+    'core\\event\\course_module_created' => '/home/u998084134/public_html/lib/classes/event/course_module_created.php',
+    'core\\event\\webservice_token_sent' => '/home/u998084134/public_html/lib/classes/event/webservice_token_sent.php',
+    'core\\event\\blog_entry_created' => '/home/u998084134/public_html/lib/classes/event/blog_entry_created.php',
+    'core\\event\\user_created' => '/home/u998084134/public_html/lib/classes/event/user_created.php',
+    'core\\event\\group_deleted' => '/home/u998084134/public_html/lib/classes/event/group_deleted.php',
+    'core\\event\\user_enrolment_updated' => '/home/u998084134/public_html/lib/classes/event/user_enrolment_updated.php',
+    'core\\event\\base' => '/home/u998084134/public_html/lib/classes/event/base.php',
+    'core\\event\\manager' => '/home/u998084134/public_html/lib/classes/event/manager.php',
+    'core\\event\\course_content_deleted' => '/home/u998084134/public_html/lib/classes/event/course_content_deleted.php',
+    'core\\event\\role_assigned' => '/home/u998084134/public_html/lib/classes/event/role_assigned.php',
+    'core\\event\\user_deleted' => '/home/u998084134/public_html/lib/classes/event/user_deleted.php',
+    'core\\event\\course_module_deleted' => '/home/u998084134/public_html/lib/classes/event/course_module_deleted.php',
+    'core\\event\\webservice_login_failed' => '/home/u998084134/public_html/lib/classes/event/webservice_login_failed.php',
+    'core\\event\\cohort_created' => '/home/u998084134/public_html/lib/classes/event/cohort_created.php',
+    'core\\event\\user_enrolment_created' => '/home/u998084134/public_html/lib/classes/event/user_enrolment_created.php',
+    'core\\event\\webservice_service_deleted' => '/home/u998084134/public_html/lib/classes/event/webservice_service_deleted.php',
+    'core\\event\\group_created' => '/home/u998084134/public_html/lib/classes/event/group_created.php',
+    'core\\event\\course_module_updated' => '/home/u998084134/public_html/lib/classes/event/course_module_updated.php',
+    'core\\event\\blog_entry_deleted' => '/home/u998084134/public_html/lib/classes/event/blog_entry_deleted.php',
+    'core\\event\\grouping_created' => '/home/u998084134/public_html/lib/classes/event/grouping_created.php',
+    'core\\event\\course_section_updated' => '/home/u998084134/public_html/lib/classes/event/course_section_updated.php',
+    'core\\event\\user_enrolment_deleted' => '/home/u998084134/public_html/lib/classes/event/user_enrolment_deleted.php',
+    'core\\event\\user_loggedout' => '/home/u998084134/public_html/lib/classes/event/user_loggedout.php',
+    'core\\event\\course_restored' => '/home/u998084134/public_html/lib/classes/event/course_restored.php',
+    'core\\event\\course_completion_updated' => '/home/u998084134/public_html/lib/classes/event/course_completion_updated.php',
+    'core_text' => '/home/u998084134/public_html/lib/classes/text.php',
+    'core\\text' => '/home/u998084134/public_html/lib/classes/text.php',
+    'core_useragent' => '/home/u998084134/public_html/lib/classes/useragent.php',
+    'core\\useragent' => '/home/u998084134/public_html/lib/classes/useragent.php',
+    'core_string_manager' => '/home/u998084134/public_html/lib/classes/string_manager.php',
+    'core\\string_manager' => '/home/u998084134/public_html/lib/classes/string_manager.php',
+    'core_string_manager_standard' => '/home/u998084134/public_html/lib/classes/string_manager_standard.php',
+    'core\\string_manager_standard' => '/home/u998084134/public_html/lib/classes/string_manager_standard.php',
+    'core_user' => '/home/u998084134/public_html/lib/classes/user.php',
+    'core\\user' => '/home/u998084134/public_html/lib/classes/user.php',
+    'core_badges_observer' => '/home/u998084134/public_html/badges/classes/observer.php',
+    'core_badges\\observer' => '/home/u998084134/public_html/badges/classes/observer.php',
+    'core_badges_assertion' => '/home/u998084134/public_html/badges/classes/assertion.php',
+    'core_badges\\assertion' => '/home/u998084134/public_html/badges/classes/assertion.php',
+    'core_cache_loaders' => '/home/u998084134/public_html/cache/classes/loaders.php',
+    'core_cache\\loaders' => '/home/u998084134/public_html/cache/classes/loaders.php',
+    'core_cache_store' => '/home/u998084134/public_html/cache/classes/store.php',
+    'core_cache\\store' => '/home/u998084134/public_html/cache/classes/store.php',
+    'core_cache_dummystore' => '/home/u998084134/public_html/cache/classes/dummystore.php',
+    'core_cache\\dummystore' => '/home/u998084134/public_html/cache/classes/dummystore.php',
+    'core_cache_helper' => '/home/u998084134/public_html/cache/classes/helper.php',
+    'core_cache\\helper' => '/home/u998084134/public_html/cache/classes/helper.php',
+    'core_cache_config' => '/home/u998084134/public_html/cache/classes/config.php',
+    'core_cache\\config' => '/home/u998084134/public_html/cache/classes/config.php',
+    'core_cache_definition' => '/home/u998084134/public_html/cache/classes/definition.php',
+    'core_cache\\definition' => '/home/u998084134/public_html/cache/classes/definition.php',
+    'core_cache_factory' => '/home/u998084134/public_html/cache/classes/factory.php',
+    'core_cache\\factory' => '/home/u998084134/public_html/cache/classes/factory.php',
+    'core_cache_interfaces' => '/home/u998084134/public_html/cache/classes/interfaces.php',
+    'core_cache\\interfaces' => '/home/u998084134/public_html/cache/classes/interfaces.php',
+    'core_calendar_type_factory' => '/home/u998084134/public_html/calendar/classes/type_factory.php',
+    'core_calendar\\type_factory' => '/home/u998084134/public_html/calendar/classes/type_factory.php',
+    'core_calendar_type_base' => '/home/u998084134/public_html/calendar/classes/type_base.php',
+    'core_calendar\\type_base' => '/home/u998084134/public_html/calendar/classes/type_base.php',
+    'core_course_editcategory_form' => '/home/u998084134/public_html/course/classes/editcategory_form.php',
+    'core_course\\editcategory_form' => '/home/u998084134/public_html/course/classes/editcategory_form.php',
+    'core_course\\management\\helper' => '/home/u998084134/public_html/course/classes/management/helper.php',
+    'core_course_deletecategory_form' => '/home/u998084134/public_html/course/classes/deletecategory_form.php',
+    'core_course\\deletecategory_form' => '/home/u998084134/public_html/course/classes/deletecategory_form.php',
+    'core_course_management_renderer' => '/home/u998084134/public_html/course/classes/management_renderer.php',
+    'core_course\\management_renderer' => '/home/u998084134/public_html/course/classes/management_renderer.php',
+    'core_question\\statistics\\responses\\analysis_for_question' => '/home/u998084134/public_html/question/classes/statistics/responses/analysis_for_question.php',
+    'core_question\\statistics\\responses\\analyser' => '/home/u998084134/public_html/question/classes/statistics/responses/analyser.php',
+    'core_question\\statistics\\responses\\analysis_for_class' => '/home/u998084134/public_html/question/classes/statistics/responses/analysis_for_class.php',
+    'core_question\\statistics\\responses\\analysis_for_actual_response' => '/home/u998084134/public_html/question/classes/statistics/responses/analysis_for_actual_response.php',
+    'core_question\\statistics\\responses\\analysis_for_subpart' => '/home/u998084134/public_html/question/classes/statistics/responses/analysis_for_subpart.php',
+    'core_question\\statistics\\questions\\calculated_for_subquestion' => '/home/u998084134/public_html/question/classes/statistics/questions/calculated_for_subquestion.php',
+    'core_question\\statistics\\questions\\calculated' => '/home/u998084134/public_html/question/classes/statistics/questions/calculated.php',
+    'core_question\\statistics\\questions\\calculator' => '/home/u998084134/public_html/question/classes/statistics/questions/calculator.php',
+    'core_role_admins_existing_selector' => '/home/u998084134/public_html/admin/roles/classes/admins_existing_selector.php',
+    'core_role\\admins_existing_selector' => '/home/u998084134/public_html/admin/roles/classes/admins_existing_selector.php',
+    'core_role_allow_override_page' => '/home/u998084134/public_html/admin/roles/classes/allow_override_page.php',
+    'core_role\\allow_override_page' => '/home/u998084134/public_html/admin/roles/classes/allow_override_page.php',
+    'core_role_check_capability_table' => '/home/u998084134/public_html/admin/roles/classes/check_capability_table.php',
+    'core_role\\check_capability_table' => '/home/u998084134/public_html/admin/roles/classes/check_capability_table.php',
+    'core_role_permission_allow_form' => '/home/u998084134/public_html/admin/roles/classes/permission_allow_form.php',
+    'core_role\\permission_allow_form' => '/home/u998084134/public_html/admin/roles/classes/permission_allow_form.php',
+    'core_role_admins_potential_selector' => '/home/u998084134/public_html/admin/roles/classes/admins_potential_selector.php',
+    'core_role\\admins_potential_selector' => '/home/u998084134/public_html/admin/roles/classes/admins_potential_selector.php',
+    'core_role_potential_assignees_course_and_above' => '/home/u998084134/public_html/admin/roles/classes/potential_assignees_course_and_above.php',
+    'core_role\\potential_assignees_course_and_above' => '/home/u998084134/public_html/admin/roles/classes/potential_assignees_course_and_above.php',
+    'core_role_view_role_definition_table' => '/home/u998084134/public_html/admin/roles/classes/view_role_definition_table.php',
+    'core_role\\view_role_definition_table' => '/home/u998084134/public_html/admin/roles/classes/view_role_definition_table.php',
+    'core_role_define_role_table_basic' => '/home/u998084134/public_html/admin/roles/classes/define_role_table_basic.php',
+    'core_role\\define_role_table_basic' => '/home/u998084134/public_html/admin/roles/classes/define_role_table_basic.php',
+    'core_role_allow_assign_page' => '/home/u998084134/public_html/admin/roles/classes/allow_assign_page.php',
+    'core_role\\allow_assign_page' => '/home/u998084134/public_html/admin/roles/classes/allow_assign_page.php',
+    'core_role_allow_switch_page' => '/home/u998084134/public_html/admin/roles/classes/allow_switch_page.php',
+    'core_role\\allow_switch_page' => '/home/u998084134/public_html/admin/roles/classes/allow_switch_page.php',
+    'core_role_capability_table_with_risks' => '/home/u998084134/public_html/admin/roles/classes/capability_table_with_risks.php',
+    'core_role\\capability_table_with_risks' => '/home/u998084134/public_html/admin/roles/classes/capability_table_with_risks.php',
+    'core_role_check_users_selector' => '/home/u998084134/public_html/admin/roles/classes/check_users_selector.php',
+    'core_role\\check_users_selector' => '/home/u998084134/public_html/admin/roles/classes/check_users_selector.php',
+    'core_role_preset' => '/home/u998084134/public_html/admin/roles/classes/preset.php',
+    'core_role\\preset' => '/home/u998084134/public_html/admin/roles/classes/preset.php',
+    'core_role_define_role_table_advanced' => '/home/u998084134/public_html/admin/roles/classes/define_role_table_advanced.php',
+    'core_role\\define_role_table_advanced' => '/home/u998084134/public_html/admin/roles/classes/define_role_table_advanced.php',
+    'core_role_capability_table_base' => '/home/u998084134/public_html/admin/roles/classes/capability_table_base.php',
+    'core_role\\capability_table_base' => '/home/u998084134/public_html/admin/roles/classes/capability_table_base.php',
+    'core_role_preset_form' => '/home/u998084134/public_html/admin/roles/classes/preset_form.php',
+    'core_role\\preset_form' => '/home/u998084134/public_html/admin/roles/classes/preset_form.php',
+    'core_role_potential_assignees_below_course' => '/home/u998084134/public_html/admin/roles/classes/potential_assignees_below_course.php',
+    'core_role\\potential_assignees_below_course' => '/home/u998084134/public_html/admin/roles/classes/potential_assignees_below_course.php',
+    'core_role_permissions_table' => '/home/u998084134/public_html/admin/roles/classes/permissions_table.php',
+    'core_role\\permissions_table' => '/home/u998084134/public_html/admin/roles/classes/permissions_table.php',
+    'core_role_override_permissions_table_advanced' => '/home/u998084134/public_html/admin/roles/classes/override_permissions_table_advanced.php',
+    'core_role\\override_permissions_table_advanced' => '/home/u998084134/public_html/admin/roles/classes/override_permissions_table_advanced.php',
+    'core_role_existing_role_holders' => '/home/u998084134/public_html/admin/roles/classes/existing_role_holders.php',
+    'core_role\\existing_role_holders' => '/home/u998084134/public_html/admin/roles/classes/existing_role_holders.php',
+    'core_role_assign_user_selector_base' => '/home/u998084134/public_html/admin/roles/classes/assign_user_selector_base.php',
+    'core_role\\assign_user_selector_base' => '/home/u998084134/public_html/admin/roles/classes/assign_user_selector_base.php',
+    'core_role_allow_role_page' => '/home/u998084134/public_html/admin/roles/classes/allow_role_page.php',
+    'core_role\\allow_role_page' => '/home/u998084134/public_html/admin/roles/classes/allow_role_page.php',
+    'core_role_permission_prohibit_form' => '/home/u998084134/public_html/admin/roles/classes/permission_prohibit_form.php',
+    'core_role\\permission_prohibit_form' => '/home/u998084134/public_html/admin/roles/classes/permission_prohibit_form.php',
+    'mod_assign\\plugininfo\\assignsubmission' => '/home/u998084134/public_html/mod/assign/classes/plugininfo/assignsubmission.php',
+    'mod_assign\\plugininfo\\assignfeedback' => '/home/u998084134/public_html/mod/assign/classes/plugininfo/assignfeedback.php',
+    'mod_assign\\event\\submission_status_updated' => '/home/u998084134/public_html/mod/assign/classes/event/submission_status_updated.php',
+    'mod_assign\\event\\marker_updated' => '/home/u998084134/public_html/mod/assign/classes/event/marker_updated.php',
+    'mod_assign\\event\\workflow_state_updated' => '/home/u998084134/public_html/mod/assign/classes/event/workflow_state_updated.php',
+    'mod_assign\\event\\submission_updated' => '/home/u998084134/public_html/mod/assign/classes/event/submission_updated.php',
+    'mod_assign\\event\\statement_accepted' => '/home/u998084134/public_html/mod/assign/classes/event/statement_accepted.php',
+    'mod_assign\\event\\identities_revealed' => '/home/u998084134/public_html/mod/assign/classes/event/identities_revealed.php',
+    'mod_assign\\event\\submission_locked' => '/home/u998084134/public_html/mod/assign/classes/event/submission_locked.php',
+    'mod_assign\\event\\assessable_submitted' => '/home/u998084134/public_html/mod/assign/classes/event/assessable_submitted.php',
+    'mod_assign\\event\\extension_granted' => '/home/u998084134/public_html/mod/assign/classes/event/extension_granted.php',
+    'mod_assign\\event\\submission_duplicated' => '/home/u998084134/public_html/mod/assign/classes/event/submission_duplicated.php',
+    'mod_assign\\event\\submission_unlocked' => '/home/u998084134/public_html/mod/assign/classes/event/submission_unlocked.php',
+    'mod_assign\\event\\submission_graded' => '/home/u998084134/public_html/mod/assign/classes/event/submission_graded.php',
+    'mod_assign\\event\\all_submissions_downloaded' => '/home/u998084134/public_html/mod/assign/classes/event/all_submissions_downloaded.php',
+    'mod_assignment\\plugininfo\\assignment' => '/home/u998084134/public_html/mod/assignment/classes/plugininfo/assignment.php',
+    'mod_book\\plugininfo\\booktool' => '/home/u998084134/public_html/mod/book/classes/plugininfo/booktool.php',
+    'mod_book\\event\\chapter_deleted' => '/home/u998084134/public_html/mod/book/classes/event/chapter_deleted.php',
+    'mod_book\\event\\instances_list_viewed' => '/home/u998084134/public_html/mod/book/classes/event/instances_list_viewed.php',
+    'mod_book\\event\\chapter_updated' => '/home/u998084134/public_html/mod/book/classes/event/chapter_updated.php',
+    'mod_book\\event\\course_module_viewed' => '/home/u998084134/public_html/mod/book/classes/event/course_module_viewed.php',
+    'mod_book\\event\\chapter_created' => '/home/u998084134/public_html/mod/book/classes/event/chapter_created.php',
+    'mod_book\\event\\chapter_viewed' => '/home/u998084134/public_html/mod/book/classes/event/chapter_viewed.php',
+    'mod_chat\\event\\instances_list_viewed' => '/home/u998084134/public_html/mod/chat/classes/event/instances_list_viewed.php',
+    'mod_chat\\event\\message_sent' => '/home/u998084134/public_html/mod/chat/classes/event/message_sent.php',
+    'mod_chat\\event\\sessions_viewed' => '/home/u998084134/public_html/mod/chat/classes/event/sessions_viewed.php',
+    'mod_choice\\event\\instances_list_viewed' => '/home/u998084134/public_html/mod/choice/classes/event/instances_list_viewed.php',
+    'mod_choice\\event\\answer_updated' => '/home/u998084134/public_html/mod/choice/classes/event/answer_updated.php',
+    'mod_choice\\event\\answer_submitted' => '/home/u998084134/public_html/mod/choice/classes/event/answer_submitted.php',
+    'mod_choice\\event\\report_viewed' => '/home/u998084134/public_html/mod/choice/classes/event/report_viewed.php',
+    'mod_choice\\event\\course_module_viewed' => '/home/u998084134/public_html/mod/choice/classes/event/course_module_viewed.php',
+    'mod_data\\plugininfo\\datapreset' => '/home/u998084134/public_html/mod/data/classes/plugininfo/datapreset.php',
+    'mod_data\\plugininfo\\datafield' => '/home/u998084134/public_html/mod/data/classes/plugininfo/datafield.php',
+    'mod_feedback\\event\\instances_list_viewed' => '/home/u998084134/public_html/mod/feedback/classes/event/instances_list_viewed.php',
+    'mod_feedback\\event\\response_deleted' => '/home/u998084134/public_html/mod/feedback/classes/event/response_deleted.php',
+    'mod_feedback\\event\\course_module_viewed' => '/home/u998084134/public_html/mod/feedback/classes/event/course_module_viewed.php',
+    'mod_feedback\\event\\response_submitted' => '/home/u998084134/public_html/mod/feedback/classes/event/response_submitted.php',
+    'mod_forum_post_form' => '/home/u998084134/public_html/mod/forum/classes/post_form.php',
+    'mod_forum\\post_form' => '/home/u998084134/public_html/mod/forum/classes/post_form.php',
+    'mod_forum_observer' => '/home/u998084134/public_html/mod/forum/classes/observer.php',
+    'mod_forum\\observer' => '/home/u998084134/public_html/mod/forum/classes/observer.php',
+    'mod_forum\\event\\assessable_uploaded' => '/home/u998084134/public_html/mod/forum/classes/event/assessable_uploaded.php',
+    'mod_lesson_file_info' => '/home/u998084134/public_html/mod/lesson/classes/file_info.php',
+    'mod_lesson\\file_info' => '/home/u998084134/public_html/mod/lesson/classes/file_info.php',
+    'mod_lti\\plugininfo\\ltisource' => '/home/u998084134/public_html/mod/lti/classes/plugininfo/ltisource.php',
+    'mod_lti\\event\\unknown_service_api_called' => '/home/u998084134/public_html/mod/lti/classes/event/unknown_service_api_called.php',
+    'mod_page\\event\\instances_list_viewed' => '/home/u998084134/public_html/mod/page/classes/event/instances_list_viewed.php',
+    'mod_page\\event\\course_module_viewed' => '/home/u998084134/public_html/mod/page/classes/event/course_module_viewed.php',
+    'mod_quiz_admin_setting_grademethod' => '/home/u998084134/public_html/mod/quiz/classes/admin_setting_grademethod.php',
+    'mod_quiz\\admin_setting_grademethod' => '/home/u998084134/public_html/mod/quiz/classes/admin_setting_grademethod.php',
+    'mod_quiz\\plugininfo\\quiz' => '/home/u998084134/public_html/mod/quiz/classes/plugininfo/quiz.php',
+    'mod_quiz\\plugininfo\\quizaccess' => '/home/u998084134/public_html/mod/quiz/classes/plugininfo/quizaccess.php',
+    'mod_quiz_group_observers' => '/home/u998084134/public_html/mod/quiz/classes/group_observers.php',
+    'mod_quiz\\group_observers' => '/home/u998084134/public_html/mod/quiz/classes/group_observers.php',
+    'mod_quiz_admin_setting_browsersecurity' => '/home/u998084134/public_html/mod/quiz/classes/admin_setting_browsersecurity.php',
+    'mod_quiz\\admin_setting_browsersecurity' => '/home/u998084134/public_html/mod/quiz/classes/admin_setting_browsersecurity.php',
+    'mod_quiz\\event\\attempt_submitted' => '/home/u998084134/public_html/mod/quiz/classes/event/attempt_submitted.php',
+    'mod_quiz\\event\\attempt_started' => '/home/u998084134/public_html/mod/quiz/classes/event/attempt_started.php',
+    'mod_quiz\\event\\attempt_abandoned' => '/home/u998084134/public_html/mod/quiz/classes/event/attempt_abandoned.php',
+    'mod_quiz\\event\\attempt_becameoverdue' => '/home/u998084134/public_html/mod/quiz/classes/event/attempt_becameoverdue.php',
+    'mod_quiz_admin_setting_user_image' => '/home/u998084134/public_html/mod/quiz/classes/admin_setting_user_image.php',
+    'mod_quiz\\admin_setting_user_image' => '/home/u998084134/public_html/mod/quiz/classes/admin_setting_user_image.php',
+    'mod_quiz_admin_setting_overduehandling' => '/home/u998084134/public_html/mod/quiz/classes/admin_setting_overduehandling.php',
+    'mod_quiz\\admin_setting_overduehandling' => '/home/u998084134/public_html/mod/quiz/classes/admin_setting_overduehandling.php',
+    'mod_quiz_admin_review_setting' => '/home/u998084134/public_html/mod/quiz/classes/admin_review_setting.php',
+    'mod_quiz\\admin_review_setting' => '/home/u998084134/public_html/mod/quiz/classes/admin_review_setting.php',
+    'mod_scorm\\plugininfo\\scormreport' => '/home/u998084134/public_html/mod/scorm/classes/plugininfo/scormreport.php',
+    'mod_workshop\\plugininfo\\workshopeval' => '/home/u998084134/public_html/mod/workshop/classes/plugininfo/workshopeval.php',
+    'mod_workshop\\plugininfo\\workshopform' => '/home/u998084134/public_html/mod/workshop/classes/plugininfo/workshopform.php',
+    'mod_workshop\\plugininfo\\workshopallocation' => '/home/u998084134/public_html/mod/workshop/classes/plugininfo/workshopallocation.php',
+    'mod_workshop\\event\\assessable_uploaded' => '/home/u998084134/public_html/mod/workshop/classes/event/assessable_uploaded.php',
+    'mod_workshop\\event\\course_module_viewed' => '/home/u998084134/public_html/mod/workshop/classes/event/course_module_viewed.php',
+    'calendartype_gregorian_structure' => '/home/u998084134/public_html/calendar/type/gregorian/classes/structure.php',
+    'calendartype_gregorian\\structure' => '/home/u998084134/public_html/calendar/type/gregorian/classes/structure.php',
+    'enrol_category_observer' => '/home/u998084134/public_html/enrol/category/classes/observer.php',
+    'enrol_category\\observer' => '/home/u998084134/public_html/enrol/category/classes/observer.php',
+    'enrol_meta_observer' => '/home/u998084134/public_html/enrol/meta/classes/observer.php',
+    'enrol_meta\\observer' => '/home/u998084134/public_html/enrol/meta/classes/observer.php',
+    'editor_tinymce\\plugininfo\\tinymce' => '/home/u998084134/public_html/lib/editor/tinymce/classes/plugininfo/tinymce.php',
+    'editor_tinymce_plugin' => '/home/u998084134/public_html/lib/editor/tinymce/classes/plugin.php',
+    'editor_tinymce\\plugin' => '/home/u998084134/public_html/lib/editor/tinymce/classes/plugin.php',
+    'report_log\\event\\content_viewed' => '/home/u998084134/public_html/report/log/classes/event/content_viewed.php',
+    'report_loglive\\event\\content_viewed' => '/home/u998084134/public_html/report/loglive/classes/event/content_viewed.php',
+    'report_outline\\event\\content_viewed' => '/home/u998084134/public_html/report/outline/classes/event/content_viewed.php',
+    'report_participation\\event\\content_viewed' => '/home/u998084134/public_html/report/participation/classes/event/content_viewed.php',
+    'report_stats\\event\\content_viewed' => '/home/u998084134/public_html/report/stats/classes/event/content_viewed.php',
+    'tool_capability_settings_form' => '/home/u998084134/public_html/admin/tool/capability/classes/settings_form.php',
+    'tool_capability\\settings_form' => '/home/u998084134/public_html/admin/tool/capability/classes/settings_form.php',
+    'tool_generator_make_course_form' => '/home/u998084134/public_html/admin/tool/generator/classes/make_course_form.php',
+    'tool_generator\\make_course_form' => '/home/u998084134/public_html/admin/tool/generator/classes/make_course_form.php',
+    'tool_generator_course_backend' => '/home/u998084134/public_html/admin/tool/generator/classes/course_backend.php',
+    'tool_generator\\course_backend' => '/home/u998084134/public_html/admin/tool/generator/classes/course_backend.php',
+    'tool_generator_site_backend' => '/home/u998084134/public_html/admin/tool/generator/classes/site_backend.php',
+    'tool_generator\\site_backend' => '/home/u998084134/public_html/admin/tool/generator/classes/site_backend.php',
+    'tool_generator_backend' => '/home/u998084134/public_html/admin/tool/generator/classes/backend.php',
+    'tool_generator\\backend' => '/home/u998084134/public_html/admin/tool/generator/classes/backend.php',
+    'tool_generator_make_testplan_form' => '/home/u998084134/public_html/admin/tool/generator/classes/make_testplan_form.php',
+    'tool_generator\\make_testplan_form' => '/home/u998084134/public_html/admin/tool/generator/classes/make_testplan_form.php',
+    'tool_generator_testplan_backend' => '/home/u998084134/public_html/admin/tool/generator/classes/testplan_backend.php',
+    'tool_generator\\testplan_backend' => '/home/u998084134/public_html/admin/tool/generator/classes/testplan_backend.php',
+    'tool_installaddon_validator' => '/home/u998084134/public_html/admin/tool/installaddon/classes/validator.php',
+    'tool_installaddon\\validator' => '/home/u998084134/public_html/admin/tool/installaddon/classes/validator.php',
+    'tool_installaddon_installfromzip_form' => '/home/u998084134/public_html/admin/tool/installaddon/classes/installfromzip_form.php',
+    'tool_installaddon\\installfromzip_form' => '/home/u998084134/public_html/admin/tool/installaddon/classes/installfromzip_form.php',
+    'tool_installaddon_installer' => '/home/u998084134/public_html/admin/tool/installaddon/classes/installer.php',
+    'tool_installaddon\\installer' => '/home/u998084134/public_html/admin/tool/installaddon/classes/installer.php',
+    'tool_installaddon_pluginfo_client' => '/home/u998084134/public_html/admin/tool/installaddon/classes/pluginfo_client.php',
+    'tool_installaddon\\pluginfo_client' => '/home/u998084134/public_html/admin/tool/installaddon/classes/pluginfo_client.php',
+    'tool_replace_form' => '/home/u998084134/public_html/admin/tool/replace/classes/form.php',
+    'tool_replace\\form' => '/home/u998084134/public_html/admin/tool/replace/classes/form.php',
+    'tool_uploadcourse_step2_form' => '/home/u998084134/public_html/admin/tool/uploadcourse/classes/step2_form.php',
+    'tool_uploadcourse\\step2_form' => '/home/u998084134/public_html/admin/tool/uploadcourse/classes/step2_form.php',
+    'tool_uploadcourse_helper' => '/home/u998084134/public_html/admin/tool/uploadcourse/classes/helper.php',
+    'tool_uploadcourse\\helper' => '/home/u998084134/public_html/admin/tool/uploadcourse/classes/helper.php',
+    'tool_uploadcourse_step1_form' => '/home/u998084134/public_html/admin/tool/uploadcourse/classes/step1_form.php',
+    'tool_uploadcourse\\step1_form' => '/home/u998084134/public_html/admin/tool/uploadcourse/classes/step1_form.php',
+    'tool_uploadcourse_base_form' => '/home/u998084134/public_html/admin/tool/uploadcourse/classes/base_form.php',
+    'tool_uploadcourse\\base_form' => '/home/u998084134/public_html/admin/tool/uploadcourse/classes/base_form.php',
+    'tool_uploadcourse_processor' => '/home/u998084134/public_html/admin/tool/uploadcourse/classes/processor.php',
+    'tool_uploadcourse\\processor' => '/home/u998084134/public_html/admin/tool/uploadcourse/classes/processor.php',
+    'tool_uploadcourse_tracker' => '/home/u998084134/public_html/admin/tool/uploadcourse/classes/tracker.php',
+    'tool_uploadcourse\\tracker' => '/home/u998084134/public_html/admin/tool/uploadcourse/classes/tracker.php',
+    'tool_uploadcourse_course' => '/home/u998084134/public_html/admin/tool/uploadcourse/classes/course.php',
+    'tool_uploadcourse\\course' => '/home/u998084134/public_html/admin/tool/uploadcourse/classes/course.php',
+    'assignsubmission_file\\event\\assessable_uploaded' => '/home/u998084134/public_html/mod/assign/submission/file/classes/event/assessable_uploaded.php',
+    'assignsubmission_onlinetext\\event\\assessable_uploaded' => '/home/u998084134/public_html/mod/assign/submission/onlinetext/classes/event/assessable_uploaded.php',
+    'assignfeedback_editpdf_widget' => '/home/u998084134/public_html/mod/assign/feedback/editpdf/classes/widget.php',
+    'assignfeedback_editpdf\\widget' => '/home/u998084134/public_html/mod/assign/feedback/editpdf/classes/widget.php',
+    'assignfeedback_editpdf_comment' => '/home/u998084134/public_html/mod/assign/feedback/editpdf/classes/comment.php',
+    'assignfeedback_editpdf\\comment' => '/home/u998084134/public_html/mod/assign/feedback/editpdf/classes/comment.php',
+    'assignfeedback_editpdf_renderer' => '/home/u998084134/public_html/mod/assign/feedback/editpdf/classes/renderer.php',
+    'assignfeedback_editpdf\\renderer' => '/home/u998084134/public_html/mod/assign/feedback/editpdf/classes/renderer.php',
+    'assignfeedback_editpdf_page_editor' => '/home/u998084134/public_html/mod/assign/feedback/editpdf/classes/page_editor.php',
+    'assignfeedback_editpdf\\page_editor' => '/home/u998084134/public_html/mod/assign/feedback/editpdf/classes/page_editor.php',
+    'assignfeedback_editpdf_document_services' => '/home/u998084134/public_html/mod/assign/feedback/editpdf/classes/document_services.php',
+    'assignfeedback_editpdf\\document_services' => '/home/u998084134/public_html/mod/assign/feedback/editpdf/classes/document_services.php',
+    'assignfeedback_editpdf_annotation' => '/home/u998084134/public_html/mod/assign/feedback/editpdf/classes/annotation.php',
+    'assignfeedback_editpdf\\annotation' => '/home/u998084134/public_html/mod/assign/feedback/editpdf/classes/annotation.php',
+    'assignfeedback_editpdf_pdf' => '/home/u998084134/public_html/mod/assign/feedback/editpdf/classes/pdf.php',
+    'assignfeedback_editpdf\\pdf' => '/home/u998084134/public_html/mod/assign/feedback/editpdf/classes/pdf.php',
+    'assignfeedback_editpdf_comments_quick_list' => '/home/u998084134/public_html/mod/assign/feedback/editpdf/classes/comments_quick_list.php',
+    'assignfeedback_editpdf\\comments_quick_list' => '/home/u998084134/public_html/mod/assign/feedback/editpdf/classes/comments_quick_list.php',
+    'assignment_online\\event\\assessable_uploaded' => '/home/u998084134/public_html/mod/assignment/type/online/classes/event/assessable_uploaded.php',
+    'assignment_upload\\event\\assessable_uploaded' => '/home/u998084134/public_html/mod/assignment/type/upload/classes/event/assessable_uploaded.php',
+    'assignment_upload\\event\\assessable_submitted' => '/home/u998084134/public_html/mod/assignment/type/upload/classes/event/assessable_submitted.php',
+    'booktool_exportimscp\\event\\book_exported' => '/home/u998084134/public_html/mod/book/tool/exportimscp/classes/event/book_exported.php',
+    'booktool_print\\event\\book_printed' => '/home/u998084134/public_html/mod/book/tool/print/classes/event/book_printed.php',
+    'booktool_print\\event\\chapter_printed' => '/home/u998084134/public_html/mod/book/tool/print/classes/event/chapter_printed.php',
+    'quiz_statistics_calculated' => '/home/u998084134/public_html/mod/quiz/report/statistics/classes/calculated.php',
+    'quiz_statistics\\calculated' => '/home/u998084134/public_html/mod/quiz/report/statistics/classes/calculated.php',
+    'quiz_statistics_calculator' => '/home/u998084134/public_html/mod/quiz/report/statistics/classes/calculator.php',
+    'quiz_statistics\\calculator' => '/home/u998084134/public_html/mod/quiz/report/statistics/classes/calculator.php',
+    'workshopallocation_scheduled_observer' => '/home/u998084134/public_html/mod/workshop/allocation/scheduled/classes/observer.php',
+    'workshopallocation_scheduled\\observer' => '/home/u998084134/public_html/mod/workshop/allocation/scheduled/classes/observer.php',
+    'tinymce_spellchecker_SpellChecker' => '/home/u998084134/public_html/lib/editor/tinymce/plugins/spellchecker/classes/SpellChecker.php',
+    'tinymce_spellchecker\\SpellChecker' => '/home/u998084134/public_html/lib/editor/tinymce/plugins/spellchecker/classes/SpellChecker.php',
+    'tinymce_spellchecker_EnchantSpell' => '/home/u998084134/public_html/lib/editor/tinymce/plugins/spellchecker/classes/EnchantSpell.php',
+    'tinymce_spellchecker\\EnchantSpell' => '/home/u998084134/public_html/lib/editor/tinymce/plugins/spellchecker/classes/EnchantSpell.php',
+    'tinymce_spellchecker\\utils\\Logger' => '/home/u998084134/public_html/lib/editor/tinymce/plugins/spellchecker/classes/utils/Logger.php',
+    'tinymce_spellchecker\\utils\\JSON' => '/home/u998084134/public_html/lib/editor/tinymce/plugins/spellchecker/classes/utils/JSON.php',
+    'tinymce_spellchecker_PSpellShell' => '/home/u998084134/public_html/lib/editor/tinymce/plugins/spellchecker/classes/PSpellShell.php',
+    'tinymce_spellchecker\\PSpellShell' => '/home/u998084134/public_html/lib/editor/tinymce/plugins/spellchecker/classes/PSpellShell.php',
+    'tinymce_spellchecker_GoogleSpell' => '/home/u998084134/public_html/lib/editor/tinymce/plugins/spellchecker/classes/GoogleSpell.php',
+    'tinymce_spellchecker\\GoogleSpell' => '/home/u998084134/public_html/lib/editor/tinymce/plugins/spellchecker/classes/GoogleSpell.php',
+    'tinymce_spellchecker_PSpell' => '/home/u998084134/public_html/lib/editor/tinymce/plugins/spellchecker/classes/PSpell.php',
+    'tinymce_spellchecker\\PSpell' => '/home/u998084134/public_html/lib/editor/tinymce/plugins/spellchecker/classes/PSpell.php',
+    'textlib' => '/home/u998084134/public_html/lib/classes/text.php',
+    'collatorlib' => '/home/u998084134/public_html/lib/classes/collator.php',
+  ),
+  'filemap' => 
+  array (
+    'lib.php' => 
+    array (
+      'qtype' => 
+      array (
+        'calculated' => '/home/u998084134/public_html/question/type/calculated/lib.php',
+        'calculatedmulti' => '/home/u998084134/public_html/question/type/calculatedmulti/lib.php',
+        'calculatedsimple' => '/home/u998084134/public_html/question/type/calculatedsimple/lib.php',
+        'essay' => '/home/u998084134/public_html/question/type/essay/lib.php',
+        'match' => '/home/u998084134/public_html/question/type/match/lib.php',
+        'multichoice' => '/home/u998084134/public_html/question/type/multichoice/lib.php',
+        'numerical' => '/home/u998084134/public_html/question/type/numerical/lib.php',
+        'randomsamatch' => '/home/u998084134/public_html/question/type/randomsamatch/lib.php',
+        'shortanswer' => '/home/u998084134/public_html/question/type/shortanswer/lib.php',
+        'truefalse' => '/home/u998084134/public_html/question/type/truefalse/lib.php',
+      ),
+      'mod' => 
+      array (
+        'assign' => '/home/u998084134/public_html/mod/assign/lib.php',
+        'assignment' => '/home/u998084134/public_html/mod/assignment/lib.php',
+        'book' => '/home/u998084134/public_html/mod/book/lib.php',
+        'chat' => '/home/u998084134/public_html/mod/chat/lib.php',
+        'choice' => '/home/u998084134/public_html/mod/choice/lib.php',
+        'data' => '/home/u998084134/public_html/mod/data/lib.php',
+        'feedback' => '/home/u998084134/public_html/mod/feedback/lib.php',
+        'folder' => '/home/u998084134/public_html/mod/folder/lib.php',
+        'forum' => '/home/u998084134/public_html/mod/forum/lib.php',
+        'glossary' => '/home/u998084134/public_html/mod/glossary/lib.php',
+        'imscp' => '/home/u998084134/public_html/mod/imscp/lib.php',
+        'label' => '/home/u998084134/public_html/mod/label/lib.php',
+        'lesson' => '/home/u998084134/public_html/mod/lesson/lib.php',
+        'lti' => '/home/u998084134/public_html/mod/lti/lib.php',
+        'page' => '/home/u998084134/public_html/mod/page/lib.php',
+        'quiz' => '/home/u998084134/public_html/mod/quiz/lib.php',
+        'resource' => '/home/u998084134/public_html/mod/resource/lib.php',
+        'scorm' => '/home/u998084134/public_html/mod/scorm/lib.php',
+        'survey' => '/home/u998084134/public_html/mod/survey/lib.php',
+        'url' => '/home/u998084134/public_html/mod/url/lib.php',
+        'wiki' => '/home/u998084134/public_html/mod/wiki/lib.php',
+        'workshop' => '/home/u998084134/public_html/mod/workshop/lib.php',
+      ),
+      'auth' => 
+      array (
+      ),
+      'calendartype' => 
+      array (
+      ),
+      'enrol' => 
+      array (
+        'category' => '/home/u998084134/public_html/enrol/category/lib.php',
+        'cohort' => '/home/u998084134/public_html/enrol/cohort/lib.php',
+        'database' => '/home/u998084134/public_html/enrol/database/lib.php',
+        'flatfile' => '/home/u998084134/public_html/enrol/flatfile/lib.php',
+        'guest' => '/home/u998084134/public_html/enrol/guest/lib.php',
+        'imsenterprise' => '/home/u998084134/public_html/enrol/imsenterprise/lib.php',
+        'ldap' => '/home/u998084134/public_html/enrol/ldap/lib.php',
+        'manual' => '/home/u998084134/public_html/enrol/manual/lib.php',
+        'meta' => '/home/u998084134/public_html/enrol/meta/lib.php',
+        'mnet' => '/home/u998084134/public_html/enrol/mnet/lib.php',
+        'paypal' => '/home/u998084134/public_html/enrol/paypal/lib.php',
+        'self' => '/home/u998084134/public_html/enrol/self/lib.php',
+      ),
+      'message' => 
+      array (
+      ),
+      'block' => 
+      array (
+        'comments' => '/home/u998084134/public_html/blocks/comments/lib.php',
+        'html' => '/home/u998084134/public_html/blocks/html/lib.php',
+      ),
+      'filter' => 
+      array (
+        'tex' => '/home/u998084134/public_html/filter/tex/lib.php',
+      ),
+      'editor' => 
+      array (
+        'textarea' => '/home/u998084134/public_html/lib/editor/textarea/lib.php',
+        'tinymce' => '/home/u998084134/public_html/lib/editor/tinymce/lib.php',
+      ),
+      'format' => 
+      array (
+        'singleactivity' => '/home/u998084134/public_html/course/format/singleactivity/lib.php',
+        'social' => '/home/u998084134/public_html/course/format/social/lib.php',
+        'topics' => '/home/u998084134/public_html/course/format/topics/lib.php',
+        'weeks' => '/home/u998084134/public_html/course/format/weeks/lib.php',
+      ),
+      'profilefield' => 
+      array (
+      ),
+      'report' => 
+      array (
+        'completion' => '/home/u998084134/public_html/report/completion/lib.php',
+        'log' => '/home/u998084134/public_html/report/log/lib.php',
+        'loglive' => '/home/u998084134/public_html/report/loglive/lib.php',
+        'outline' => '/home/u998084134/public_html/report/outline/lib.php',
+        'participation' => '/home/u998084134/public_html/report/participation/lib.php',
+        'progress' => '/home/u998084134/public_html/report/progress/lib.php',
+        'stats' => '/home/u998084134/public_html/report/stats/lib.php',
+      ),
+      'coursereport' => 
+      array (
+      ),
+      'gradeexport' => 
+      array (
+      ),
+      'gradeimport' => 
+      array (
+        'xml' => '/home/u998084134/public_html/grade/import/xml/lib.php',
+      ),
+      'gradereport' => 
+      array (
+        'grader' => '/home/u998084134/public_html/grade/report/grader/lib.php',
+        'overview' => '/home/u998084134/public_html/grade/report/overview/lib.php',
+        'user' => '/home/u998084134/public_html/grade/report/user/lib.php',
+      ),
+      'gradingform' => 
+      array (
+        'guide' => '/home/u998084134/public_html/grade/grading/form/guide/lib.php',
+        'rubric' => '/home/u998084134/public_html/grade/grading/form/rubric/lib.php',
+      ),
+      'mnetservice' => 
+      array (
+      ),
+      'webservice' => 
+      array (
+        'rest' => '/home/u998084134/public_html/webservice/rest/lib.php',
+        'soap' => '/home/u998084134/public_html/webservice/soap/lib.php',
+        'xmlrpc' => '/home/u998084134/public_html/webservice/xmlrpc/lib.php',
+      ),
+      'repository' => 
+      array (
+        'alfresco' => '/home/u998084134/public_html/repository/alfresco/lib.php',
+        'areafiles' => '/home/u998084134/public_html/repository/areafiles/lib.php',
+        'boxnet' => '/home/u998084134/public_html/repository/boxnet/lib.php',
+        'coursefiles' => '/home/u998084134/public_html/repository/coursefiles/lib.php',
+        'dropbox' => '/home/u998084134/public_html/repository/dropbox/lib.php',
+        'equella' => '/home/u998084134/public_html/repository/equella/lib.php',
+        'filesystem' => '/home/u998084134/public_html/repository/filesystem/lib.php',
+        'flickr' => '/home/u998084134/public_html/repository/flickr/lib.php',
+        'flickr_public' => '/home/u998084134/public_html/repository/flickr_public/lib.php',
+        'googledocs' => '/home/u998084134/public_html/repository/googledocs/lib.php',
+        'local' => '/home/u998084134/public_html/repository/local/lib.php',
+        'merlot' => '/home/u998084134/public_html/repository/merlot/lib.php',
+        'picasa' => '/home/u998084134/public_html/repository/picasa/lib.php',
+        'recent' => '/home/u998084134/public_html/repository/recent/lib.php',
+        's3' => '/home/u998084134/public_html/repository/s3/lib.php',
+        'skydrive' => '/home/u998084134/public_html/repository/skydrive/lib.php',
+        'upload' => '/home/u998084134/public_html/repository/upload/lib.php',
+        'url' => '/home/u998084134/public_html/repository/url/lib.php',
+        'user' => '/home/u998084134/public_html/repository/user/lib.php',
+        'webdav' => '/home/u998084134/public_html/repository/webdav/lib.php',
+        'wikimedia' => '/home/u998084134/public_html/repository/wikimedia/lib.php',
+        'youtube' => '/home/u998084134/public_html/repository/youtube/lib.php',
+      ),
+      'portfolio' => 
+      array (
+        'boxnet' => '/home/u998084134/public_html/portfolio/boxnet/lib.php',
+        'download' => '/home/u998084134/public_html/portfolio/download/lib.php',
+        'flickr' => '/home/u998084134/public_html/portfolio/flickr/lib.php',
+        'googledocs' => '/home/u998084134/public_html/portfolio/googledocs/lib.php',
+        'mahara' => '/home/u998084134/public_html/portfolio/mahara/lib.php',
+        'picasa' => '/home/u998084134/public_html/portfolio/picasa/lib.php',
+      ),
+      'qbehaviour' => 
+      array (
+      ),
+      'qformat' => 
+      array (
+        'xhtml' => '/home/u998084134/public_html/question/format/xhtml/lib.php',
+      ),
+      'plagiarism' => 
+      array (
+      ),
+      'tool' => 
+      array (
+        'customlang' => '/home/u998084134/public_html/admin/tool/customlang/lib.php',
+        'generator' => '/home/u998084134/public_html/admin/tool/generator/lib.php',
+        'langimport' => '/home/u998084134/public_html/admin/tool/langimport/lib.php',
+        'qeupgradehelper' => '/home/u998084134/public_html/admin/tool/qeupgradehelper/lib.php',
+      ),
+      'cachestore' => 
+      array (
+        'file' => '/home/u998084134/public_html/cache/stores/file/lib.php',
+        'memcache' => '/home/u998084134/public_html/cache/stores/memcache/lib.php',
+        'memcached' => '/home/u998084134/public_html/cache/stores/memcached/lib.php',
+        'mongodb' => '/home/u998084134/public_html/cache/stores/mongodb/lib.php',
+        'session' => '/home/u998084134/public_html/cache/stores/session/lib.php',
+        'static' => '/home/u998084134/public_html/cache/stores/static/lib.php',
+      ),
+      'cachelock' => 
+      array (
+        'file' => '/home/u998084134/public_html/cache/locks/file/lib.php',
+      ),
+      'theme' => 
+      array (
+        'aardvark' => '/home/u998084134/public_html/theme/aardvark/lib.php',
+        'afterburner' => '/home/u998084134/public_html/theme/afterburner/lib.php',
+        'anomaly' => '/home/u998084134/public_html/theme/anomaly/lib.php',
+        'arialist' => '/home/u998084134/public_html/theme/arialist/lib.php',
+        'brick' => '/home/u998084134/public_html/theme/brick/lib.php',
+        'clean' => '/home/u998084134/public_html/theme/clean/lib.php',
+        'formal_white' => '/home/u998084134/public_html/theme/formal_white/lib.php',
+        'fusion' => '/home/u998084134/public_html/theme/fusion/lib.php',
+        'magazine' => '/home/u998084134/public_html/theme/magazine/lib.php',
+        'nimble' => '/home/u998084134/public_html/theme/nimble/lib.php',
+        'nonzero' => '/home/u998084134/public_html/theme/nonzero/lib.php',
+        'overlay' => '/home/u998084134/public_html/theme/overlay/lib.php',
+        'sky_high' => '/home/u998084134/public_html/theme/sky_high/lib.php',
+        'splash' => '/home/u998084134/public_html/theme/splash/lib.php',
+      ),
+      'assignsubmission' => 
+      array (
+        'comments' => '/home/u998084134/public_html/mod/assign/submission/comments/lib.php',
+        'file' => '/home/u998084134/public_html/mod/assign/submission/file/lib.php',
+        'onlinetext' => '/home/u998084134/public_html/mod/assign/submission/onlinetext/lib.php',
+      ),
+      'assignfeedback' => 
+      array (
+        'editpdf' => '/home/u998084134/public_html/mod/assign/feedback/editpdf/lib.php',
+        'file' => '/home/u998084134/public_html/mod/assign/feedback/file/lib.php',
+      ),
+      'assignment' => 
+      array (
+      ),
+      'booktool' => 
+      array (
+        'exportimscp' => '/home/u998084134/public_html/mod/book/tool/exportimscp/lib.php',
+        'importhtml' => '/home/u998084134/public_html/mod/book/tool/importhtml/lib.php',
+        'print' => '/home/u998084134/public_html/mod/book/tool/print/lib.php',
+      ),
+      'datafield' => 
+      array (
+      ),
+      'datapreset' => 
+      array (
+      ),
+      'ltisource' => 
+      array (
+      ),
+      'quiz' => 
+      array (
+        'statistics' => '/home/u998084134/public_html/mod/quiz/report/statistics/lib.php',
+      ),
+      'quizaccess' => 
+      array (
+      ),
+      'scormreport' => 
+      array (
+      ),
+      'workshopform' => 
+      array (
+        'accumulative' => '/home/u998084134/public_html/mod/workshop/form/accumulative/lib.php',
+        'comments' => '/home/u998084134/public_html/mod/workshop/form/comments/lib.php',
+        'numerrors' => '/home/u998084134/public_html/mod/workshop/form/numerrors/lib.php',
+        'rubric' => '/home/u998084134/public_html/mod/workshop/form/rubric/lib.php',
+      ),
+      'workshopallocation' => 
+      array (
+        'manual' => '/home/u998084134/public_html/mod/workshop/allocation/manual/lib.php',
+        'random' => '/home/u998084134/public_html/mod/workshop/allocation/random/lib.php',
+        'scheduled' => '/home/u998084134/public_html/mod/workshop/allocation/scheduled/lib.php',
+      ),
+      'workshopeval' => 
+      array (
+        'best' => '/home/u998084134/public_html/mod/workshop/eval/best/lib.php',
+      ),
+      'tinymce' => 
+      array (
+        'ctrlhelp' => '/home/u998084134/public_html/lib/editor/tinymce/plugins/ctrlhelp/lib.php',
+        'dragmath' => '/home/u998084134/public_html/lib/editor/tinymce/plugins/dragmath/lib.php',
+        'managefiles' => '/home/u998084134/public_html/lib/editor/tinymce/plugins/managefiles/lib.php',
+        'moodleemoticon' => '/home/u998084134/public_html/lib/editor/tinymce/plugins/moodleemoticon/lib.php',
+        'moodleimage' => '/home/u998084134/public_html/lib/editor/tinymce/plugins/moodleimage/lib.php',
+        'moodlemedia' => '/home/u998084134/public_html/lib/editor/tinymce/plugins/moodlemedia/lib.php',
+        'moodlenolink' => '/home/u998084134/public_html/lib/editor/tinymce/plugins/moodlenolink/lib.php',
+        'pdw' => '/home/u998084134/public_html/lib/editor/tinymce/plugins/pdw/lib.php',
+        'spellchecker' => '/home/u998084134/public_html/lib/editor/tinymce/plugins/spellchecker/lib.php',
+        'wrap' => '/home/u998084134/public_html/lib/editor/tinymce/plugins/wrap/lib.php',
+      ),
+      'local' => 
+      array (
+      ),
+    ),
+    'settings.php' => 
+    array (
+      'qtype' => 
+      array (
+      ),
+      'mod' => 
+      array (
+        'assign' => '/home/u998084134/public_html/mod/assign/settings.php',
+        'assignment' => '/home/u998084134/public_html/mod/assignment/settings.php',
+        'book' => '/home/u998084134/public_html/mod/book/settings.php',
+        'chat' => '/home/u998084134/public_html/mod/chat/settings.php',
+        'data' => '/home/u998084134/public_html/mod/data/settings.php',
+        'feedback' => '/home/u998084134/public_html/mod/feedback/settings.php',
+        'folder' => '/home/u998084134/public_html/mod/folder/settings.php',
+        'forum' => '/home/u998084134/public_html/mod/forum/settings.php',
+        'glossary' => '/home/u998084134/public_html/mod/glossary/settings.php',
+        'imscp' => '/home/u998084134/public_html/mod/imscp/settings.php',
+        'label' => '/home/u998084134/public_html/mod/label/settings.php',
+        'lesson' => '/home/u998084134/public_html/mod/lesson/settings.php',
+        'lti' => '/home/u998084134/public_html/mod/lti/settings.php',
+        'page' => '/home/u998084134/public_html/mod/page/settings.php',
+        'quiz' => '/home/u998084134/public_html/mod/quiz/settings.php',
+        'resource' => '/home/u998084134/public_html/mod/resource/settings.php',
+        'scorm' => '/home/u998084134/public_html/mod/scorm/settings.php',
+        'url' => '/home/u998084134/public_html/mod/url/settings.php',
+        'workshop' => '/home/u998084134/public_html/mod/workshop/settings.php',
+      ),
+      'auth' => 
+      array (
+      ),
+      'calendartype' => 
+      array (
+      ),
+      'enrol' => 
+      array (
+        'category' => '/home/u998084134/public_html/enrol/category/settings.php',
+        'cohort' => '/home/u998084134/public_html/enrol/cohort/settings.php',
+        'database' => '/home/u998084134/public_html/enrol/database/settings.php',
+        'flatfile' => '/home/u998084134/public_html/enrol/flatfile/settings.php',
+        'guest' => '/home/u998084134/public_html/enrol/guest/settings.php',
+        'imsenterprise' => '/home/u998084134/public_html/enrol/imsenterprise/settings.php',
+        'ldap' => '/home/u998084134/public_html/enrol/ldap/settings.php',
+        'manual' => '/home/u998084134/public_html/enrol/manual/settings.php',
+        'meta' => '/home/u998084134/public_html/enrol/meta/settings.php',
+        'mnet' => '/home/u998084134/public_html/enrol/mnet/settings.php',
+        'paypal' => '/home/u998084134/public_html/enrol/paypal/settings.php',
+        'self' => '/home/u998084134/public_html/enrol/self/settings.php',
+      ),
+      'message' => 
+      array (
+        'email' => '/home/u998084134/public_html/message/output/email/settings.php',
+        'jabber' => '/home/u998084134/public_html/message/output/jabber/settings.php',
+      ),
+      'block' => 
+      array (
+        'course_list' => '/home/u998084134/public_html/blocks/course_list/settings.php',
+        'course_overview' => '/home/u998084134/public_html/blocks/course_overview/settings.php',
+        'html' => '/home/u998084134/public_html/blocks/html/settings.php',
+        'online_users' => '/home/u998084134/public_html/blocks/online_users/settings.php',
+        'rss_client' => '/home/u998084134/public_html/blocks/rss_client/settings.php',
+        'section_links' => '/home/u998084134/public_html/blocks/section_links/settings.php',
+        'tags' => '/home/u998084134/public_html/blocks/tags/settings.php',
+      ),
+      'filter' => 
+      array (
+        'censor' => '/home/u998084134/public_html/filter/censor/settings.php',
+        'emoticon' => '/home/u998084134/public_html/filter/emoticon/settings.php',
+        'multilang' => '/home/u998084134/public_html/filter/multilang/settings.php',
+        'tex' => '/home/u998084134/public_html/filter/tex/settings.php',
+        'urltolink' => '/home/u998084134/public_html/filter/urltolink/settings.php',
+      ),
+      'editor' => 
+      array (
+        'tinymce' => '/home/u998084134/public_html/lib/editor/tinymce/settings.php',
+      ),
+      'format' => 
+      array (
+        'singleactivity' => '/home/u998084134/public_html/course/format/singleactivity/settings.php',
+      ),
+      'profilefield' => 
+      array (
+      ),
+      'report' => 
+      array (
+        'backups' => '/home/u998084134/public_html/report/backups/settings.php',
+        'configlog' => '/home/u998084134/public_html/report/configlog/settings.php',
+        'courseoverview' => '/home/u998084134/public_html/report/courseoverview/settings.php',
+        'log' => '/home/u998084134/public_html/report/log/settings.php',
+        'loglive' => '/home/u998084134/public_html/report/loglive/settings.php',
+        'performance' => '/home/u998084134/public_html/report/performance/settings.php',
+        'questioninstances' => '/home/u998084134/public_html/report/questioninstances/settings.php',
+        'security' => '/home/u998084134/public_html/report/security/settings.php',
+        'stats' => '/home/u998084134/public_html/report/stats/settings.php',
+      ),
+      'coursereport' => 
+      array (
+      ),
+      'gradeexport' => 
+      array (
+      ),
+      'gradeimport' => 
+      array (
+      ),
+      'gradereport' => 
+      array (
+        'grader' => '/home/u998084134/public_html/grade/report/grader/settings.php',
+        'overview' => '/home/u998084134/public_html/grade/report/overview/settings.php',
+        'user' => '/home/u998084134/public_html/grade/report/user/settings.php',
+      ),
+      'gradingform' => 
+      array (
+      ),
+      'mnetservice' => 
+      array (
+      ),
+      'webservice' => 
+      array (
+      ),
+      'repository' => 
+      array (
+      ),
+      'portfolio' => 
+      array (
+      ),
+      'qbehaviour' => 
+      array (
+      ),
+      'qformat' => 
+      array (
+      ),
+      'plagiarism' => 
+      array (
+      ),
+      'tool' => 
+      array (
+        'assignmentupgrade' => '/home/u998084134/public_html/admin/tool/assignmentupgrade/settings.php',
+        'behat' => '/home/u998084134/public_html/admin/tool/behat/settings.php',
+        'capability' => '/home/u998084134/public_html/admin/tool/capability/settings.php',
+        'customlang' => '/home/u998084134/public_html/admin/tool/customlang/settings.php',
+        'dbtransfer' => '/home/u998084134/public_html/admin/tool/dbtransfer/settings.php',
+        'generator' => '/home/u998084134/public_html/admin/tool/generator/settings.php',
+        'health' => '/home/u998084134/public_html/admin/tool/health/settings.php',
+        'innodb' => '/home/u998084134/public_html/admin/tool/innodb/settings.php',
+        'installaddon' => '/home/u998084134/public_html/admin/tool/installaddon/settings.php',
+        'langimport' => '/home/u998084134/public_html/admin/tool/langimport/settings.php',
+        'multilangupgrade' => '/home/u998084134/public_html/admin/tool/multilangupgrade/settings.php',
+        'phpunit' => '/home/u998084134/public_html/admin/tool/phpunit/settings.php',
+        'profiling' => '/home/u998084134/public_html/admin/tool/profiling/settings.php',
+        'qeupgradehelper' => '/home/u998084134/public_html/admin/tool/qeupgradehelper/settings.php',
+        'replace' => '/home/u998084134/public_html/admin/tool/replace/settings.php',
+        'spamcleaner' => '/home/u998084134/public_html/admin/tool/spamcleaner/settings.php',
+        'timezoneimport' => '/home/u998084134/public_html/admin/tool/timezoneimport/settings.php',
+        'unsuproles' => '/home/u998084134/public_html/admin/tool/unsuproles/settings.php',
+        'uploadcourse' => '/home/u998084134/public_html/admin/tool/uploadcourse/settings.php',
+        'uploaduser' => '/home/u998084134/public_html/admin/tool/uploaduser/settings.php',
+        'xmldb' => '/home/u998084134/public_html/admin/tool/xmldb/settings.php',
+      ),
+      'cachestore' => 
+      array (
+        'memcache' => '/home/u998084134/public_html/cache/stores/memcache/settings.php',
+        'memcached' => '/home/u998084134/public_html/cache/stores/memcached/settings.php',
+        'mongodb' => '/home/u998084134/public_html/cache/stores/mongodb/settings.php',
+      ),
+      'cachelock' => 
+      array (
+      ),
+      'theme' => 
+      array (
+        'aardvark' => '/home/u998084134/public_html/theme/aardvark/settings.php',
+        'afterburner' => '/home/u998084134/public_html/theme/afterburner/settings.php',
+        'anomaly' => '/home/u998084134/public_html/theme/anomaly/settings.php',
+        'arialist' => '/home/u998084134/public_html/theme/arialist/settings.php',
+        'brick' => '/home/u998084134/public_html/theme/brick/settings.php',
+        'clean' => '/home/u998084134/public_html/theme/clean/settings.php',
+        'formal_white' => '/home/u998084134/public_html/theme/formal_white/settings.php',
+        'fusion' => '/home/u998084134/public_html/theme/fusion/settings.php',
+        'magazine' => '/home/u998084134/public_html/theme/magazine/settings.php',
+        'nimble' => '/home/u998084134/public_html/theme/nimble/settings.php',
+        'nonzero' => '/home/u998084134/public_html/theme/nonzero/settings.php',
+        'overlay' => '/home/u998084134/public_html/theme/overlay/settings.php',
+        'sky_high' => '/home/u998084134/public_html/theme/sky_high/settings.php',
+        'splash' => '/home/u998084134/public_html/theme/splash/settings.php',
+      ),
+      'assignsubmission' => 
+      array (
+        'file' => '/home/u998084134/public_html/mod/assign/submission/file/settings.php',
+        'onlinetext' => '/home/u998084134/public_html/mod/assign/submission/onlinetext/settings.php',
+      ),
+      'assignfeedback' => 
+      array (
+        'comments' => '/home/u998084134/public_html/mod/assign/feedback/comments/settings.php',
+        'editpdf' => '/home/u998084134/public_html/mod/assign/feedback/editpdf/settings.php',
+        'file' => '/home/u998084134/public_html/mod/assign/feedback/file/settings.php',
+        'offline' => '/home/u998084134/public_html/mod/assign/feedback/offline/settings.php',
+      ),
+      'assignment' => 
+      array (
+      ),
+      'booktool' => 
+      array (
+      ),
+      'datafield' => 
+      array (
+      ),
+      'datapreset' => 
+      array (
+      ),
+      'ltisource' => 
+      array (
+      ),
+      'quiz' => 
+      array (
+      ),
+      'quizaccess' => 
+      array (
+      ),
+      'scormreport' => 
+      array (
+      ),
+      'workshopform' => 
+      array (
+        'numerrors' => '/home/u998084134/public_html/mod/workshop/form/numerrors/settings.php',
+      ),
+      'workshopallocation' => 
+      array (
+        'random' => '/home/u998084134/public_html/mod/workshop/allocation/random/settings.php',
+      ),
+      'workshopeval' => 
+      array (
+        'best' => '/home/u998084134/public_html/mod/workshop/eval/best/settings.php',
+      ),
+      'tinymce' => 
+      array (
+        'dragmath' => '/home/u998084134/public_html/lib/editor/tinymce/plugins/dragmath/settings.php',
+        'moodleemoticon' => '/home/u998084134/public_html/lib/editor/tinymce/plugins/moodleemoticon/settings.php',
+        'spellchecker' => '/home/u998084134/public_html/lib/editor/tinymce/plugins/spellchecker/settings.php',
+      ),
+      'local' => 
+      array (
+      ),
+    ),
+  ),
+  'version' => 2013111803,
+);

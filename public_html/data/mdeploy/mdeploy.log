@@ -1,0 +1,10 @@
+2016-09-01 19:24:34 === MDEPLOY EXECUTION START ===
+2016-09-01 19:24:34 Successfully authorized using the passphrase file
+2016-09-01 19:24:34 Plugin upgrade requested
+2016-09-01 19:24:34 Downloading package https://moodle.org/plugins/download.php/7641/theme_aardvark_moodle28_2015010800.zip
+2016-09-01 19:24:34 Using operating system CA certificates.
+2016-09-01 19:24:34 Package downloaded into /home/u998084134/public_html/data/mdeploy/var/575b2e8954844b0930733a098bf4a442.0.zip
+2016-09-01 19:24:34 MD5 checksum ok
+2016-09-01 19:24:34 Current plugin code location: /home/u998084134/public_html/theme/aardvark
+2016-09-01 19:24:34 Moving the current code into archive: /home/u998084134/public_html/data/mdeploy/archive/aardvark_1472757874.0
+2016-09-01 19:24:35 Package successfully extracted
